@@ -864,7 +864,7 @@ requires-dist = [
     { name = "pytest", marker = "extra == 'dev'", specifier = ">=8.3.0" },
     { name = "pytest-cov", marker = "extra == 'dev'", specifier = ">=5.0.0" },
     { name = "ruff", marker = "extra == 'dev'", specifier = ">=0.6.9" },
-    { name = "silisocs", marker = "extra == 'silisocs'", specifier = ">=0.2.0,<0.3.0" },
+    { name = "silisocs", marker = "extra == 'silisocs'", specifier = ">=0.2.0,<0.5.0" },
     { name = "trueskill", marker = "extra == 'dev'", specifier = ">=0.4.5" },
 ]
 provides-extras = ["concordia", "dev", "silisocs"]
@@ -1458,7 +1458,7 @@ wheels = [
 
 [[package]]
 name = "silisocs"
-version = "0.2.0"
+version = "0.4.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "coloredlogs" },
@@ -1477,9 +1477,9 @@ dependencies = [
     { name = "tqdm" },
     { name = "typer" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/12/47/ce677f33c68bfc362892563dbef940782a7325a346d6567fb5b37684a8e9/silisocs-0.2.0.tar.gz", hash = "sha256:6ad24c56695bb3d76b7530d5faf1e643311b1e6df83b0928830aeee74603dde9", size = 342819, upload-time = "2026-06-12T17:00:01.282Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/a0/ae/2dff083fb99de5b3342f04d0e081b37d4525b8cfe55e746647c17c52d837/silisocs-0.4.0.tar.gz", hash = "sha256:316d3baf2289d19efc418934d8b7686d89486830e3bd6e7b382992144e925716", size = 1477302, upload-time = "2026-08-01T02:41:49.979Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/fd/f1/2d221fad7717834cb5533a2f8d2c7ac2719c3a397ab693afa4f83365d761/silisocs-0.2.0-py3-none-any.whl", hash = "sha256:8ad76033a969edb6731bb14d9a64619ef7df64d234f96179ae05347d74e4f1f9", size = 348297, upload-time = "2026-06-12T16:59:59.557Z" },
+    { url = "https://files.pythonhosted.org/packages/74/0e/7163801469fa28054e295cdffec77432dd987c181981d9ef9fc7a2da2b30/silisocs-0.4.0-py3-none-any.whl", hash = "sha256:6befd78ded37f2668ac6287b0e5c19351df8ee14f42ad451287bf35526b79802", size = 1331356, upload-time = "2026-08-01T02:41:48.223Z" },
 ]
 
 [[package]]
