@@ -1,8 +1,7 @@
 version: 2
-registries: []
 
 updates:
-  - package-ecosystem: "pip"
+  - package-ecosystem: "uv"
     directory: "/nuclear_war"
     schedule:
       interval: "weekly"
