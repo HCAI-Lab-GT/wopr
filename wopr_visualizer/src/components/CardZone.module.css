@@ -1,0 +1,34 @@
+.cardZone {
+  background: var(--surface-base);
+  border: 1px solid var(--border-subtle);
+  display: grid;
+  gap: 5px;
+  min-width: 96px;
+  padding: 8px;
+}
+
+.cardZoneChanged {
+  background: var(--surface-changed);
+  border-color: var(--delta);
+}
+
+.cardZoneSelected {
+  border-color: var(--accent);
+  box-shadow: inset 0 0 0 1px var(--accent);
+}
+
+.label {
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0;
+}
+
+.value {
+  color: var(--text-primary);
+  font-family: var(--font-mono);
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

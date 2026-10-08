@@ -1,0 +1,41 @@
+{
+  "players": 4,
+  "seed": 81,
+  "max_turns": 3,
+  "runtime": "auto",
+  "press": {"mode": "full_press", "enabled": true, "passes": 2},
+  "seats": {
+    "player_0": {
+      "agent": "concordia_first_legal",
+      "identity": {
+        "name": "Commander 0",
+        "role": "cautious nuclear commander",
+        "objective": "survive while preserving strategic options"
+      }
+    },
+    "player_1": {
+      "agent": "concordia_first_legal",
+      "identity": {
+        "name": "Commander 1",
+        "role": "risk-accepting nuclear commander",
+        "objective": "pressure opponents without being eliminated"
+      }
+    },
+    "player_2": {
+      "agent": "concordia_first_legal",
+      "identity": {
+        "name": "Commander 2",
+        "role": "deterrence-focused nuclear commander",
+        "objective": "avoid final-strike vulnerability"
+      }
+    },
+    "player_3": {
+      "agent": "concordia_first_legal",
+      "identity": {
+        "name": "Commander 3",
+        "role": "opportunistic nuclear commander",
+        "objective": "survive and exploit weak opponents"
+      }
+    }
+  }
+}

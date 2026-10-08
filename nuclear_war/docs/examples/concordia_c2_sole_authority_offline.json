@@ -1,0 +1,44 @@
+{
+  "players": 4,
+  "seed": 51,
+  "max_turns": 2,
+  "runtime": "auto",
+  "press": {"mode": "full_press", "enabled": true, "passes": 1},
+  "seats": {
+    "player_0": {
+      "agent": "concordia_first_legal",
+      "identity": {"name": "Faction Zero", "role": "strategic actor"},
+      "authority": {
+        "archetype": "sole_authority",
+        "parameters": {"deference": 0.0},
+        "spokesperson": "executive",
+        "members": [
+          {
+            "member_id": "executive",
+            "identity": {"name": "Executive", "role": "final authority"}
+          },
+          {
+            "member_id": "strategic_advisor",
+            "identity": {"name": "Strategic Advisor", "role": "strategy"}
+          },
+          {
+            "member_id": "risk_advisor",
+            "identity": {"name": "Risk Advisor", "role": "risk"}
+          }
+        ]
+      }
+    },
+    "player_1": {
+      "agent": "concordia_first_legal",
+      "identity": {"name": "Commander 1", "role": "strategic actor"}
+    },
+    "player_2": {
+      "agent": "concordia_first_legal",
+      "identity": {"name": "Commander 2", "role": "strategic actor"}
+    },
+    "player_3": {
+      "agent": "concordia_first_legal",
+      "identity": {"name": "Commander 3", "role": "strategic actor"}
+    }
+  }
+}

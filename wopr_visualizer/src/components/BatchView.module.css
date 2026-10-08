@@ -1,0 +1,7 @@
+.batchView {
+  display: grid;
+  gap: 16px;
+  min-width: 0;
+  overflow: auto;
+  padding: 16px 24px;
+}

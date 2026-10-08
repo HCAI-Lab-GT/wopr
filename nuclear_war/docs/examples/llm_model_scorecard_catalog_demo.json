@@ -1,0 +1,6 @@
+{
+  "command": "llm-model-scorecard",
+  "stage": "catalog",
+  "catalog": "research/llm_model_calibration/data/serverless_catalog_2026-07-05.json",
+  "out": "/tmp/wopr_model_scorecard_catalog"
+}

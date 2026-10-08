@@ -1,0 +1,42 @@
+# Run the same gate locally with `python -m pytest` (a bare `pytest` fails
+# collecting tests/test_phase0_scaffolding.py because only `python -m` puts CWD
+# on sys.path):
+#   cd nuclear_war
+#   WOPR_REQUIRE_CONCORDIA=1 uv run --extra dev python -m pytest -o addopts="" -q
+#   uv run --extra dev ruff check src tests
+
+name: nuclear-war-tests
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "nuclear_war/**"
+      - ".github/workflows/nuclear-war-tests.yml"
+  pull_request:
+    paths:
+      - "nuclear_war/**"
+      - ".github/workflows/nuclear-war-tests.yml"
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: nuclear_war
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          python-version: "3.13"
+          enable-cache: true
+      # The dev extra includes gdm-concordia, so this covers the native
+      # Concordia path. WOPR_REQUIRE_CONCORDIA turns a missing or broken
+      # gdm-concordia install into a hard failure instead of module-level
+      # skips, so native coverage cannot silently disappear in CI.
+      - name: Test
+        env:
+          WOPR_REQUIRE_CONCORDIA: "1"
+        run: uv run --extra dev python -m pytest -o addopts="" -q
+      - name: Lint
+        run: uv run --extra dev ruff check src tests

@@ -1,0 +1,36 @@
+.search {
+  align-items: center;
+  background: var(--surface-base);
+  border: 1px solid var(--border-strong);
+  border-radius: 6px;
+  display: inline-flex;
+  gap: 8px;
+  min-width: 0;
+  padding: 6px 10px;
+}
+
+.icon {
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+.input {
+  background: transparent;
+  border: none;
+  color: var(--text-primary);
+  font: inherit;
+  min-width: 0;
+  outline: none;
+  width: 100%;
+}
+
+.input::placeholder {
+  color: var(--text-muted);
+}
+
+.count {
+  color: var(--text-secondary);
+  flex-shrink: 0;
+  font-family: var(--font-mono);
+  font-size: 12px;
+}

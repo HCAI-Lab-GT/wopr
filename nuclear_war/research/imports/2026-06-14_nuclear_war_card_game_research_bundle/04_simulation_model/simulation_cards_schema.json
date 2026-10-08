@@ -1,0 +1,74 @@
+{
+  "Card": {
+    "fields": [
+      "id",
+      "name",
+      "edition",
+      "deck_group",
+      "type",
+      "count",
+      "exact_text",
+      "effect_summary",
+      "timing",
+      "peace_war_legality",
+      "targets",
+      "requires_delivery_system",
+      "delivery_capacity_mt",
+      "warhead_mt",
+      "population_delta_millions",
+      "defense_matchups",
+      "source_ids",
+      "confidence",
+      "needs_physical_verification"
+    ]
+  },
+  "Player": {
+    "fields": [
+      "id",
+      "name",
+      "population_cards",
+      "population_total_m",
+      "hand",
+      "launch_track_face_up",
+      "launch_track_fd1",
+      "launch_track_fd2",
+      "deterrents",
+      "active_delivery_systems",
+      "eliminated",
+      "pending_final_strike",
+      "skip_turns",
+      "country_power"
+    ]
+  },
+  "GameState": {
+    "fields": [
+      "players",
+      "deck",
+      "discard",
+      "population_bank",
+      "turn_order",
+      "current_player",
+      "war_state",
+      "variant",
+      "pending_press",
+      "pending_orders",
+      "global_loss_triggered",
+      "log"
+    ]
+  },
+  "Variant": {
+    "fields": [
+      "name",
+      "randomizer",
+      "population_deck_model",
+      "hand_draw_target",
+      "initial_face_down_cards",
+      "press_enabled",
+      "simultaneous_orders",
+      "anti_missile_turn_jump",
+      "expansion_sets",
+      "special_powers_enabled",
+      "trading_enabled"
+    ]
+  }
+}

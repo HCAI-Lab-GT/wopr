@@ -1,0 +1,31 @@
+{
+  "players": 4,
+  "seed_start": 101,
+  "runs": 10,
+  "max_turns": 40,
+  "seats": {
+    "player_0": {
+      "agent": "llm_http",
+      "max_retries": 1,
+      "fallback": "first",
+      "client": {
+        "base_url_env": "WOPR_LLM_BASE_URL",
+        "model_env": "WOPR_LLM_MODEL",
+        "api_key_env": "TOGETHER_API_KEY",
+        "provider_label": "together",
+        "timeout_seconds": 60,
+        "temperature": 0.0,
+        "max_tokens": 256
+      }
+    },
+    "player_1": {
+      "agent": "random"
+    },
+    "player_2": {
+      "agent": "heuristic"
+    },
+    "player_3": {
+      "agent": "decision_heuristic"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v3
+        with:
+          python-version: "3.13"
+      - name: Install dependencies
+        run: uv pip install --system -e .[dev]
+      - name: Validate guardrails
+        run: uv run scripts/validate-phase
+        env:
+          WOPR_REQUIRE_CONCORDIA: "1"
+      - name: Build artifacts
+        run: uv build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dist-artifacts
+          path: dist

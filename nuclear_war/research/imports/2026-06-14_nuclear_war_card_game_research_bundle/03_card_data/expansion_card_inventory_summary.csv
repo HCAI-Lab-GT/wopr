@@ -1,0 +1,7 @@
+set,item,count,category,source,notes
+Nuclear Escalation,Common warhead/propaganda deck,same common deck as base,shared,BGG moreinfo; Scribd card list,Use common deck counts in base inventory.
+Nuclear Escalation,Nuclear Escalation-specific cards,see Scribd card list,expansion inventory,Scribd card list,Card names/counts present online but not fully reproduced here; use URL/source note and physical copy if exact text needed.
+Nuclear Proliferation,Common warhead/propaganda deck,same common deck as base,shared,BGG moreinfo; Scribd card list,Use common deck counts in base inventory.
+Nuclear Proliferation,"Country powers, submarines, additional weapons/specials",see Scribd card list / product pages,expansion mechanics,Scribd card list; retail pages; Wikipedia tertiary,"Official/retail sources mention new country powers, submarines, atomic cannons, and more."
+Weapons of Mass Destruction,WMD cardlist,see Scribd card list,expansion inventory,Scribd card list,Reimplemented by Nuclear Destruction; use current official ND rules for modernized mechanics.
+Nuclear Destruction,Booster deck,one each of booster-pack cards plus extra ND-created cards,current official booster deck,Official Nuclear Destruction rules,Official rules recommend swapping booster secrets/specials 1-for-1 instead of adding whole deck directly.

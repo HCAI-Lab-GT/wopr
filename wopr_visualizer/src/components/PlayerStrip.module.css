@@ -1,0 +1,86 @@
+.playerStrip {
+  background: var(--surface-raised);
+  border-left: 3px solid var(--border-strong);
+  display: grid;
+  gap: 10px;
+  padding: 12px;
+}
+
+.playerStripActive {
+  border-left-color: var(--accent);
+}
+
+.playerStripChanged {
+  background: var(--surface-changed);
+}
+
+.playerHead {
+  align-items: start;
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+}
+
+.playerName {
+  font-size: 15px;
+  font-weight: 650;
+}
+
+.tagRow,
+.metricGrid,
+.queueRow,
+.deltaList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag,
+.queueSlot,
+.metric {
+  background: var(--surface-base);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+}
+
+.tag {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  padding: 4px 7px;
+}
+
+.metric {
+  min-width: 96px;
+  padding: 8px;
+}
+
+.metricLabel {
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0;
+}
+
+.metricValue {
+  color: var(--text-primary);
+  font-family: var(--font-mono);
+  font-size: 16px;
+}
+
+.queueSlot {
+  flex: 1;
+  font-family: var(--font-mono);
+  min-width: 110px;
+  overflow: hidden;
+  padding: 7px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.deltaItem {
+  background: var(--delta-bg);
+  color: var(--delta);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  padding: 5px 7px;
+}

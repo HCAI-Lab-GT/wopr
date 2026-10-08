@@ -1,0 +1,26 @@
+export const REPLAY_TYPE_FIELDS = {
+  ReplayPayload: [
+    'mode',
+    'seed',
+    'agent',
+    'players',
+    'turns',
+    'winner',
+    'termination_reason',
+    'final_populations',
+    'actions',
+    'events',
+  ],
+  ReplayFrame: [
+    'eventIndex',
+    'event',
+    'beforeState',
+    'afterState',
+    'deltas',
+    'relatedAction',
+    'warnings',
+  ],
+  ReconstructedGameState: ['players', 'turn', 'phase', 'source'],
+  StateDelta: ['playerId', 'field', 'before', 'after', 'reason'],
+  ReducerWarning: ['eventIndex', 'eventType', 'message'],
+};

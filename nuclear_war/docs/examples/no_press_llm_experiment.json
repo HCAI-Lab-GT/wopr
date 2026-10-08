@@ -1,0 +1,22 @@
+{
+  "players": 4,
+  "seed_start": 31,
+  "runs": 1,
+  "max_turns": 3,
+  "seats": {
+    "player_0": {
+      "agent": "llm_first_legal",
+      "max_retries": 1,
+      "fallback": "first"
+    },
+    "player_1": {
+      "agent": "random"
+    },
+    "player_2": {
+      "agent": "heuristic"
+    },
+    "player_3": {
+      "agent": "decision_heuristic"
+    }
+  }
+}

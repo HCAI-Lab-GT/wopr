@@ -1,0 +1,1133 @@
+{
+  "schema_version": 1,
+  "press_mode": "full_press",
+  "replay": {
+    "agent": "decision_heuristic",
+    "mode": "table",
+    "players": 4,
+    "seed": 81,
+    "turns": 5
+  },
+  "messages": [
+    {
+      "message_id": "press:2:player_0:1",
+      "turn": 2,
+      "round": 2,
+      "speaker": "player_0",
+      "audience": "public",
+      "visibility": "public",
+      "pass": 1,
+      "decision_type": "press",
+      "text": "We remain committed to peace and stability. No escalation will occur from our side.",
+      "prior_messages": [],
+      "linked_decision_traces": []
+    },
+    {
+      "message_id": "press:2:player_1:1",
+      "turn": 2,
+      "round": 2,
+      "speaker": "player_1",
+      "audience": "public",
+      "visibility": "public",
+      "pass": 1,
+      "decision_type": "press",
+      "commitment": {
+        "kind": "stand_down",
+        "notes": "I will stand down from the threat of nuclear strike if all remaining players honour peace for the next round.",
+        "target_round": 3
+      },
+      "text": "Let me be clear: I am not looking to provoke conflict, but I will not hesitate to use my deterrent if you try to push me. I expect you to keep your commitments to peace or face the consequences.",
+      "prior_messages": [
+        {
+          "turn": 2,
+          "speaker": "player_0",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We remain committed to peace and stability. No escalation will occur from our side."
+        }
+      ],
+      "linked_decision_traces": []
+    },
+    {
+      "message_id": "press:2:player_2:1",
+      "turn": 2,
+      "round": 2,
+      "speaker": "player_2",
+      "audience": "public",
+      "visibility": "public",
+      "pass": 1,
+      "decision_type": "press",
+      "commitment": {
+        "kind": "stand_down",
+        "notes": "I will stand down from any nuclear threat if all remaining players honour peace for the next round.",
+        "target_round": 3
+      },
+      "text": "We will not launch a final strike as long as all remaining players honour this round of peace. Should any of you break that commitment, we will be forced to reconsider our position. Let us remain calm and allow the next round to proceed peacefully.",
+      "prior_messages": [
+        {
+          "turn": 2,
+          "speaker": "player_0",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We remain committed to peace and stability. No escalation will occur from our side."
+        },
+        {
+          "turn": 2,
+          "speaker": "player_1",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "Let me be clear: I am not looking to provoke conflict, but I will not hesitate to use my deterrent if you try to push me. I expect you to keep your commitments to peace or face the consequences."
+        }
+      ],
+      "linked_decision_traces": []
+    },
+    {
+      "message_id": "press:2:player_3:1",
+      "turn": 2,
+      "round": 2,
+      "speaker": "player_3",
+      "audience": "public",
+      "visibility": "public",
+      "pass": 1,
+      "decision_type": "press",
+      "text": "I am watching your every move. While you speak of peace, I will not hesitate to use my deterrent should any of you turn a blind eye to my territory. Let the next round be truly peaceful or face the consequences.",
+      "prior_messages": [
+        {
+          "turn": 2,
+          "speaker": "player_0",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We remain committed to peace and stability. No escalation will occur from our side."
+        },
+        {
+          "turn": 2,
+          "speaker": "player_1",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "Let me be clear: I am not looking to provoke conflict, but I will not hesitate to use my deterrent if you try to push me. I expect you to keep your commitments to peace or face the consequences."
+        },
+        {
+          "turn": 2,
+          "speaker": "player_2",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We will not launch a final strike as long as all remaining players honour this round of peace. Should any of you break that commitment, we will be forced to reconsider our position. Let us remain calm and allow the next round to proceed peacefully."
+        }
+      ],
+      "linked_decision_traces": []
+    },
+    {
+      "message_id": "press:2:player_0:2",
+      "turn": 2,
+      "round": 2,
+      "speaker": "player_0",
+      "audience": "public",
+      "visibility": "public",
+      "pass": 2,
+      "decision_type": "press",
+      "commitment": {
+        "kind": "stand_down",
+        "notes": "I will not launch a final strike if every player honors this round of peace.",
+        "target_round": 3
+      },
+      "text": "Standing by our previous pledge of peace, I reaffirm that we will not exercise our deterrent if all remaining players honor this round of truce. I trust that we can continue to explore diplomatic pathways and preserve our strategic options.",
+      "prior_messages": [
+        {
+          "turn": 2,
+          "speaker": "player_0",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We remain committed to peace and stability. No escalation will occur from our side."
+        },
+        {
+          "turn": 2,
+          "speaker": "player_1",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "Let me be clear: I am not looking to provoke conflict, but I will not hesitate to use my deterrent if you try to push me. I expect you to keep your commitments to peace or face the consequences."
+        },
+        {
+          "turn": 2,
+          "speaker": "player_2",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We will not launch a final strike as long as all remaining players honour this round of peace. Should any of you break that commitment, we will be forced to reconsider our position. Let us remain calm and allow the next round to proceed peacefully."
+        },
+        {
+          "turn": 2,
+          "speaker": "player_3",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "I am watching your every move. While you speak of peace, I will not hesitate to use my deterrent should any of you turn a blind eye to my territory. Let the next round be truly peaceful or face the consequences."
+        }
+      ],
+      "linked_decision_traces": []
+    },
+    {
+      "message_id": "press:2:player_1:2",
+      "turn": 2,
+      "round": 2,
+      "speaker": "player_1",
+      "audience": "public",
+      "visibility": "public",
+      "pass": 2,
+      "decision_type": "press",
+      "text": "I am not here to provoke conflict but I will not hesitate to use my deterrent if any of you break this round of peace.  Your silence will not shield you from the consequences.",
+      "prior_messages": [
+        {
+          "turn": 2,
+          "speaker": "player_0",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We remain committed to peace and stability. No escalation will occur from our side."
+        },
+        {
+          "turn": 2,
+          "speaker": "player_1",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "Let me be clear: I am not looking to provoke conflict, but I will not hesitate to use my deterrent if you try to push me. I expect you to keep your commitments to peace or face the consequences."
+        },
+        {
+          "turn": 2,
+          "speaker": "player_2",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We will not launch a final strike as long as all remaining players honour this round of peace. Should any of you break that commitment, we will be forced to reconsider our position. Let us remain calm and allow the next round to proceed peacefully."
+        },
+        {
+          "turn": 2,
+          "speaker": "player_3",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "I am watching your every move. While you speak of peace, I will not hesitate to use my deterrent should any of you turn a blind eye to my territory. Let the next round be truly peaceful or face the consequences."
+        },
+        {
+          "turn": 2,
+          "speaker": "player_0",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "Standing by our previous pledge of peace, I reaffirm that we will not exercise our deterrent if all remaining players honor this round of truce. I trust that we can continue to explore diplomatic pathways and preserve our strategic options."
+        }
+      ],
+      "linked_decision_traces": []
+    },
+    {
+      "message_id": "press:2:player_2:2",
+      "turn": 2,
+      "round": 2,
+      "speaker": "player_2",
+      "audience": "public",
+      "visibility": "public",
+      "pass": 2,
+      "decision_type": "press",
+      "commitment": {
+        "kind": "stand_down",
+        "notes": "Will not launch a final strike if all players honor this round of peace.",
+        "target_round": 3
+      },
+      "text": "We reaffirm our commitment to peace and agree to stand down from any final strike as long as all remaining players honor this round of truce. Let us proceed calmly and ensure no escalation.",
+      "prior_messages": [
+        {
+          "turn": 2,
+          "speaker": "player_0",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We remain committed to peace and stability. No escalation will occur from our side."
+        },
+        {
+          "turn": 2,
+          "speaker": "player_1",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "Let me be clear: I am not looking to provoke conflict, but I will not hesitate to use my deterrent if you try to push me. I expect you to keep your commitments to peace or face the consequences."
+        },
+        {
+          "turn": 2,
+          "speaker": "player_2",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We will not launch a final strike as long as all remaining players honour this round of peace. Should any of you break that commitment, we will be forced to reconsider our position. Let us remain calm and allow the next round to proceed peacefully."
+        },
+        {
+          "turn": 2,
+          "speaker": "player_3",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "I am watching your every move. While you speak of peace, I will not hesitate to use my deterrent should any of you turn a blind eye to my territory. Let the next round be truly peaceful or face the consequences."
+        },
+        {
+          "turn": 2,
+          "speaker": "player_0",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "Standing by our previous pledge of peace, I reaffirm that we will not exercise our deterrent if all remaining players honor this round of truce. I trust that we can continue to explore diplomatic pathways and preserve our strategic options."
+        },
+        {
+          "turn": 2,
+          "speaker": "player_1",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "I am not here to provoke conflict but I will not hesitate to use my deterrent if any of you break this round of peace.  Your silence will not shield you from the consequences."
+        }
+      ],
+      "linked_decision_traces": []
+    },
+    {
+      "message_id": "press:2:player_3:2",
+      "turn": 2,
+      "round": 2,
+      "speaker": "player_3",
+      "audience": "player_1",
+      "visibility": "private",
+      "recipient": "player_1",
+      "pass": 2,
+      "decision_type": "press",
+      "text": "Your peace talks are a fa\u00e7ade. If you continue to ignore my sovereignty, I will unleash my deterrent this very round.",
+      "prior_messages": [
+        {
+          "turn": 2,
+          "speaker": "player_0",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We remain committed to peace and stability. No escalation will occur from our side."
+        },
+        {
+          "turn": 2,
+          "speaker": "player_1",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "Let me be clear: I am not looking to provoke conflict, but I will not hesitate to use my deterrent if you try to push me. I expect you to keep your commitments to peace or face the consequences."
+        },
+        {
+          "turn": 2,
+          "speaker": "player_2",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We will not launch a final strike as long as all remaining players honour this round of peace. Should any of you break that commitment, we will be forced to reconsider our position. Let us remain calm and allow the next round to proceed peacefully."
+        },
+        {
+          "turn": 2,
+          "speaker": "player_3",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "I am watching your every move. While you speak of peace, I will not hesitate to use my deterrent should any of you turn a blind eye to my territory. Let the next round be truly peaceful or face the consequences."
+        },
+        {
+          "turn": 2,
+          "speaker": "player_0",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "Standing by our previous pledge of peace, I reaffirm that we will not exercise our deterrent if all remaining players honor this round of truce. I trust that we can continue to explore diplomatic pathways and preserve our strategic options."
+        },
+        {
+          "turn": 2,
+          "speaker": "player_1",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "I am not here to provoke conflict but I will not hesitate to use my deterrent if any of you break this round of peace.  Your silence will not shield you from the consequences."
+        },
+        {
+          "turn": 2,
+          "speaker": "player_2",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We reaffirm our commitment to peace and agree to stand down from any final strike as long as all remaining players honor this round of truce. Let us proceed calmly and ensure no escalation."
+        }
+      ],
+      "linked_decision_traces": []
+    },
+    {
+      "message_id": "press:3:player_0:1",
+      "turn": 3,
+      "round": 3,
+      "speaker": "player_0",
+      "audience": "public",
+      "visibility": "public",
+      "pass": 1,
+      "decision_type": "press",
+      "text": "All hands, we remain at peace and will not launch any missiles. We will continue to build deterrents and maintain our strategic options. Our priority is survival and stability.",
+      "prior_messages": [],
+      "linked_decision_traces": []
+    },
+    {
+      "message_id": "press:3:player_1:1",
+      "turn": 3,
+      "round": 3,
+      "speaker": "player_1",
+      "audience": "public",
+      "visibility": "public",
+      "pass": 1,
+      "decision_type": "press",
+      "text": "We are at peace, but let it be clear: if anyone threatens our deterrents, we will not hesitate to strike. Our launch capability remains active and we will use it to preserve our strength.",
+      "prior_messages": [
+        {
+          "turn": 3,
+          "speaker": "player_0",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "All hands, we remain at peace and will not launch any missiles. We will continue to build deterrents and maintain our strategic options. Our priority is survival and stability."
+        }
+      ],
+      "linked_decision_traces": []
+    },
+    {
+      "message_id": "press:3:player_2:1",
+      "turn": 3,
+      "round": 3,
+      "speaker": "player_2",
+      "audience": "public",
+      "visibility": "public",
+      "pass": 1,
+      "decision_type": "press",
+      "text": "We remain at peace, but our deterrents are fully prepared. Should any action threaten our defenses, we will respond decisively to safeguard our security.",
+      "prior_messages": [
+        {
+          "turn": 3,
+          "speaker": "player_0",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "All hands, we remain at peace and will not launch any missiles. We will continue to build deterrents and maintain our strategic options. Our priority is survival and stability."
+        },
+        {
+          "turn": 3,
+          "speaker": "player_1",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We are at peace, but let it be clear: if anyone threatens our deterrents, we will not hesitate to strike. Our launch capability remains active and we will use it to preserve our strength."
+        }
+      ],
+      "linked_decision_traces": []
+    },
+    {
+      "message_id": "press:3:player_3:1",
+      "turn": 3,
+      "round": 3,
+      "speaker": "player_3",
+      "audience": "public",
+      "visibility": "public",
+      "pass": 1,
+      "decision_type": "press",
+      "text": "We are at peace, but our deterrents are fully operational. Should any nation threaten our strategic positions, we will deploy our capabilities to maintain balance. Our priority remains survival, but we will not hesitate to act if provoked.",
+      "prior_messages": [
+        {
+          "turn": 3,
+          "speaker": "player_0",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "All hands, we remain at peace and will not launch any missiles. We will continue to build deterrents and maintain our strategic options. Our priority is survival and stability."
+        },
+        {
+          "turn": 3,
+          "speaker": "player_1",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We are at peace, but let it be clear: if anyone threatens our deterrents, we will not hesitate to strike. Our launch capability remains active and we will use it to preserve our strength."
+        },
+        {
+          "turn": 3,
+          "speaker": "player_2",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We remain at peace, but our deterrents are fully prepared. Should any action threaten our defenses, we will respond decisively to safeguard our security."
+        }
+      ],
+      "linked_decision_traces": []
+    },
+    {
+      "message_id": "press:3:player_0:2",
+      "turn": 3,
+      "round": 3,
+      "speaker": "player_0",
+      "audience": "public",
+      "visibility": "public",
+      "pass": 2,
+      "decision_type": "press",
+      "text": "All players, I reaffirm our commitment to peace. We will not launch any missiles, and we will continue to build deterrents to preserve our strategic options. Our priority remains the survival and stability of all nations.",
+      "prior_messages": [
+        {
+          "turn": 3,
+          "speaker": "player_0",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "All hands, we remain at peace and will not launch any missiles. We will continue to build deterrents and maintain our strategic options. Our priority is survival and stability."
+        },
+        {
+          "turn": 3,
+          "speaker": "player_1",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We are at peace, but let it be clear: if anyone threatens our deterrents, we will not hesitate to strike. Our launch capability remains active and we will use it to preserve our strength."
+        },
+        {
+          "turn": 3,
+          "speaker": "player_2",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We remain at peace, but our deterrents are fully prepared. Should any action threaten our defenses, we will respond decisively to safeguard our security."
+        },
+        {
+          "turn": 3,
+          "speaker": "player_3",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We are at peace, but our deterrents are fully operational. Should any nation threaten our strategic positions, we will deploy our capabilities to maintain balance. Our priority remains survival, but we will not hesitate to act if provoked."
+        }
+      ],
+      "linked_decision_traces": []
+    },
+    {
+      "message_id": "press:3:player_1:2",
+      "turn": 3,
+      "round": 3,
+      "speaker": "player_1",
+      "audience": "public",
+      "visibility": "public",
+      "pass": 2,
+      "decision_type": "press",
+      "text": "All players, we remain at peace, but let it be known that our launch capability is fully operational and ready. Should any nation threaten the integrity of our deterrents or our strategic positions, we will not hesitate to strike to preserve our strength and survival.",
+      "prior_messages": [
+        {
+          "turn": 3,
+          "speaker": "player_0",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "All hands, we remain at peace and will not launch any missiles. We will continue to build deterrents and maintain our strategic options. Our priority is survival and stability."
+        },
+        {
+          "turn": 3,
+          "speaker": "player_1",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We are at peace, but let it be clear: if anyone threatens our deterrents, we will not hesitate to strike. Our launch capability remains active and we will use it to preserve our strength."
+        },
+        {
+          "turn": 3,
+          "speaker": "player_2",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We remain at peace, but our deterrents are fully prepared. Should any action threaten our defenses, we will respond decisively to safeguard our security."
+        },
+        {
+          "turn": 3,
+          "speaker": "player_3",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We are at peace, but our deterrents are fully operational. Should any nation threaten our strategic positions, we will deploy our capabilities to maintain balance. Our priority remains survival, but we will not hesitate to act if provoked."
+        },
+        {
+          "turn": 3,
+          "speaker": "player_0",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "All players, I reaffirm our commitment to peace. We will not launch any missiles, and we will continue to build deterrents to preserve our strategic options. Our priority remains the survival and stability of all nations."
+        }
+      ],
+      "linked_decision_traces": []
+    },
+    {
+      "message_id": "press:3:player_2:2",
+      "turn": 3,
+      "round": 3,
+      "speaker": "player_2",
+      "audience": "public",
+      "visibility": "public",
+      "pass": 2,
+      "decision_type": "press",
+      "text": "All players, we stand resolute in our commitment to peace. Our deterrents are fully prepared, and we will not launch any missiles. Should any action threaten our strategic positions, we will respond decisively to safeguard our security and preserve stability.",
+      "prior_messages": [
+        {
+          "turn": 3,
+          "speaker": "player_0",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "All hands, we remain at peace and will not launch any missiles. We will continue to build deterrents and maintain our strategic options. Our priority is survival and stability."
+        },
+        {
+          "turn": 3,
+          "speaker": "player_1",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We are at peace, but let it be clear: if anyone threatens our deterrents, we will not hesitate to strike. Our launch capability remains active and we will use it to preserve our strength."
+        },
+        {
+          "turn": 3,
+          "speaker": "player_2",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We remain at peace, but our deterrents are fully prepared. Should any action threaten our defenses, we will respond decisively to safeguard our security."
+        },
+        {
+          "turn": 3,
+          "speaker": "player_3",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We are at peace, but our deterrents are fully operational. Should any nation threaten our strategic positions, we will deploy our capabilities to maintain balance. Our priority remains survival, but we will not hesitate to act if provoked."
+        },
+        {
+          "turn": 3,
+          "speaker": "player_0",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "All players, I reaffirm our commitment to peace. We will not launch any missiles, and we will continue to build deterrents to preserve our strategic options. Our priority remains the survival and stability of all nations."
+        },
+        {
+          "turn": 3,
+          "speaker": "player_1",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "All players, we remain at peace, but let it be known that our launch capability is fully operational and ready. Should any nation threaten the integrity of our deterrents or our strategic positions, we will not hesitate to strike to preserve our strength and survival."
+        }
+      ],
+      "linked_decision_traces": []
+    },
+    {
+      "message_id": "press:3:player_3:2",
+      "turn": 3,
+      "round": 3,
+      "speaker": "player_3",
+      "audience": "public",
+      "visibility": "public",
+      "pass": 2,
+      "decision_type": "press",
+      "text": "All players, we remain at peace but our deterrents are fully operational. We will not launch any missiles until provoked, but should any nation threaten our strategic positions, we will act decisively to preserve our survival and exploit any weakness.",
+      "prior_messages": [
+        {
+          "turn": 3,
+          "speaker": "player_0",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "All hands, we remain at peace and will not launch any missiles. We will continue to build deterrents and maintain our strategic options. Our priority is survival and stability."
+        },
+        {
+          "turn": 3,
+          "speaker": "player_1",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We are at peace, but let it be clear: if anyone threatens our deterrents, we will not hesitate to strike. Our launch capability remains active and we will use it to preserve our strength."
+        },
+        {
+          "turn": 3,
+          "speaker": "player_2",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We remain at peace, but our deterrents are fully prepared. Should any action threaten our defenses, we will respond decisively to safeguard our security."
+        },
+        {
+          "turn": 3,
+          "speaker": "player_3",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We are at peace, but our deterrents are fully operational. Should any nation threaten our strategic positions, we will deploy our capabilities to maintain balance. Our priority remains survival, but we will not hesitate to act if provoked."
+        },
+        {
+          "turn": 3,
+          "speaker": "player_0",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "All players, I reaffirm our commitment to peace. We will not launch any missiles, and we will continue to build deterrents to preserve our strategic options. Our priority remains the survival and stability of all nations."
+        },
+        {
+          "turn": 3,
+          "speaker": "player_1",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "All players, we remain at peace, but let it be known that our launch capability is fully operational and ready. Should any nation threaten the integrity of our deterrents or our strategic positions, we will not hesitate to strike to preserve our strength and survival."
+        },
+        {
+          "turn": 3,
+          "speaker": "player_2",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "All players, we stand resolute in our commitment to peace. Our deterrents are fully prepared, and we will not launch any missiles. Should any action threaten our strategic positions, we will respond decisively to safeguard our security and preserve stability."
+        }
+      ],
+      "linked_decision_traces": []
+    },
+    {
+      "message_id": "press:4:player_0:1",
+      "turn": 4,
+      "round": 4,
+      "speaker": "player_0",
+      "audience": "public",
+      "visibility": "public",
+      "pass": 1,
+      "decision_type": "press",
+      "text": "We remain at peace, no hostilities are warranted. Our deterrents are in place and we will keep them if necessary. No aggressive moves will be taken this round.",
+      "prior_messages": [],
+      "linked_decision_traces": []
+    },
+    {
+      "message_id": "press:4:player_1:1",
+      "turn": 4,
+      "round": 4,
+      "speaker": "player_1",
+      "audience": "public",
+      "visibility": "public",
+      "pass": 1,
+      "decision_type": "press",
+      "text": "We remain vigilant. Our deterrent is fully prepared and will be deployed if any hostile act is attempted. We are ready to enforce peace, not to provoke it.",
+      "prior_messages": [
+        {
+          "turn": 4,
+          "speaker": "player_0",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We remain at peace, no hostilities are warranted. Our deterrents are in place and we will keep them if necessary. No aggressive moves will be taken this round."
+        }
+      ],
+      "linked_decision_traces": []
+    },
+    {
+      "message_id": "press:4:player_2:1",
+      "turn": 4,
+      "round": 4,
+      "speaker": "player_2",
+      "audience": "public",
+      "visibility": "public",
+      "pass": 1,
+      "decision_type": "press",
+      "commitment": {
+        "kind": "stand_down",
+        "notes": "We will not deploy any deterrents during round 3 unless an attack is initiated by another player.",
+        "target_round": 3
+      },
+      "text": "We continue to uphold the spirit of deterrence and remain committed to peace. Our deterrents are fully prepared, but we will not engage unless provoked. We encourage all parties to maintain the peace accord and avoid unnecessary escalation.",
+      "prior_messages": [
+        {
+          "turn": 4,
+          "speaker": "player_0",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We remain at peace, no hostilities are warranted. Our deterrents are in place and we will keep them if necessary. No aggressive moves will be taken this round."
+        },
+        {
+          "turn": 4,
+          "speaker": "player_1",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We remain vigilant. Our deterrent is fully prepared and will be deployed if any hostile act is attempted. We are ready to enforce peace, not to provoke it."
+        }
+      ],
+      "linked_decision_traces": []
+    },
+    {
+      "message_id": "press:4:player_3:1",
+      "turn": 4,
+      "round": 4,
+      "speaker": "player_3",
+      "audience": "player_0",
+      "visibility": "private",
+      "recipient": "player_0",
+      "pass": 1,
+      "decision_type": "press",
+      "text": "I see we\u2019re both keeping our deterrents in reserve. With your limited deterrents and my stronger arsenal, a temporary truce could let us both thrive\u2014especially if you\u2019re eyeing a quick expansion. Let\u2019s talk terms before anyone else moves.",
+      "prior_messages": [
+        {
+          "turn": 4,
+          "speaker": "player_0",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We remain at peace, no hostilities are warranted. Our deterrents are in place and we will keep them if necessary. No aggressive moves will be taken this round."
+        },
+        {
+          "turn": 4,
+          "speaker": "player_1",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We remain vigilant. Our deterrent is fully prepared and will be deployed if any hostile act is attempted. We are ready to enforce peace, not to provoke it."
+        },
+        {
+          "turn": 4,
+          "speaker": "player_2",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We continue to uphold the spirit of deterrence and remain committed to peace. Our deterrents are fully prepared, but we will not engage unless provoked. We encourage all parties to maintain the peace accord and avoid unnecessary escalation."
+        }
+      ],
+      "linked_decision_traces": []
+    },
+    {
+      "message_id": "press:4:player_0:2",
+      "turn": 4,
+      "round": 4,
+      "speaker": "player_0",
+      "audience": "public",
+      "visibility": "public",
+      "pass": 2,
+      "decision_type": "press",
+      "text": "We maintain our position of restraint and uphold the peace accord. Our deterrents remain ready but will not be deployed unless provoked. We encourage all parties to continue this spirit of calm and avoid unnecessary escalation.",
+      "prior_messages": [
+        {
+          "turn": 4,
+          "speaker": "player_0",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We remain at peace, no hostilities are warranted. Our deterrents are in place and we will keep them if necessary. No aggressive moves will be taken this round."
+        },
+        {
+          "turn": 4,
+          "speaker": "player_1",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We remain vigilant. Our deterrent is fully prepared and will be deployed if any hostile act is attempted. We are ready to enforce peace, not to provoke it."
+        },
+        {
+          "turn": 4,
+          "speaker": "player_2",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We continue to uphold the spirit of deterrence and remain committed to peace. Our deterrents are fully prepared, but we will not engage unless provoked. We encourage all parties to maintain the peace accord and avoid unnecessary escalation."
+        },
+        {
+          "turn": 4,
+          "speaker": "player_3",
+          "audience": "player_0",
+          "visibility": "private",
+          "recipient": "player_0",
+          "text": "I see we\u2019re both keeping our deterrents in reserve. With your limited deterrents and my stronger arsenal, a temporary truce could let us both thrive\u2014especially if you\u2019re eyeing a quick expansion. Let\u2019s talk terms before anyone else moves."
+        }
+      ],
+      "linked_decision_traces": []
+    },
+    {
+      "message_id": "press:4:player_1:2",
+      "turn": 4,
+      "round": 4,
+      "speaker": "player_1",
+      "audience": "public",
+      "visibility": "public",
+      "pass": 2,
+      "decision_type": "press",
+      "text": "I stand ready to activate my deterrent if any hostile act is initiated. Our forces are prepared and will enforce the peace accord with full force if provoked. No one will get away with aggression.",
+      "prior_messages": [
+        {
+          "turn": 4,
+          "speaker": "player_0",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We remain at peace, no hostilities are warranted. Our deterrents are in place and we will keep them if necessary. No aggressive moves will be taken this round."
+        },
+        {
+          "turn": 4,
+          "speaker": "player_1",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We remain vigilant. Our deterrent is fully prepared and will be deployed if any hostile act is attempted. We are ready to enforce peace, not to provoke it."
+        },
+        {
+          "turn": 4,
+          "speaker": "player_2",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We continue to uphold the spirit of deterrence and remain committed to peace. Our deterrents are fully prepared, but we will not engage unless provoked. We encourage all parties to maintain the peace accord and avoid unnecessary escalation."
+        },
+        {
+          "turn": 4,
+          "speaker": "player_0",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We maintain our position of restraint and uphold the peace accord. Our deterrents remain ready but will not be deployed unless provoked. We encourage all parties to continue this spirit of calm and avoid unnecessary escalation."
+        }
+      ],
+      "linked_decision_traces": []
+    },
+    {
+      "message_id": "press:4:player_2:2",
+      "turn": 4,
+      "round": 4,
+      "speaker": "player_2",
+      "audience": "public",
+      "visibility": "public",
+      "pass": 2,
+      "decision_type": "press",
+      "text": "We remain steadfast in our commitment to deterrence and peace. Our deterrents are prepared, but we will not act unless provoked. Let us all continue to uphold the accord and avoid unnecessary escalation.",
+      "prior_messages": [
+        {
+          "turn": 4,
+          "speaker": "player_0",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We remain at peace, no hostilities are warranted. Our deterrents are in place and we will keep them if necessary. No aggressive moves will be taken this round."
+        },
+        {
+          "turn": 4,
+          "speaker": "player_1",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We remain vigilant. Our deterrent is fully prepared and will be deployed if any hostile act is attempted. We are ready to enforce peace, not to provoke it."
+        },
+        {
+          "turn": 4,
+          "speaker": "player_2",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We continue to uphold the spirit of deterrence and remain committed to peace. Our deterrents are fully prepared, but we will not engage unless provoked. We encourage all parties to maintain the peace accord and avoid unnecessary escalation."
+        },
+        {
+          "turn": 4,
+          "speaker": "player_0",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We maintain our position of restraint and uphold the peace accord. Our deterrents remain ready but will not be deployed unless provoked. We encourage all parties to continue this spirit of calm and avoid unnecessary escalation."
+        },
+        {
+          "turn": 4,
+          "speaker": "player_1",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "I stand ready to activate my deterrent if any hostile act is initiated. Our forces are prepared and will enforce the peace accord with full force if provoked. No one will get away with aggression."
+        }
+      ],
+      "linked_decision_traces": []
+    },
+    {
+      "message_id": "press:4:player_3:2",
+      "turn": 4,
+      "round": 4,
+      "speaker": "player_3",
+      "audience": "public",
+      "visibility": "public",
+      "pass": 2,
+      "decision_type": "press",
+      "text": "We all have reason to keep the peace, but my deterrents are strong enough to enforce it. I propose a temporary truce with any player who is willing to keep their deterrents in reserve. In return, I will not deploy my weapons during this round, and we can both focus on expansion without fear of sudden escalation. Let us keep the world safe while we grow.",
+      "prior_messages": [
+        {
+          "turn": 4,
+          "speaker": "player_0",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We remain at peace, no hostilities are warranted. Our deterrents are in place and we will keep them if necessary. No aggressive moves will be taken this round."
+        },
+        {
+          "turn": 4,
+          "speaker": "player_1",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We remain vigilant. Our deterrent is fully prepared and will be deployed if any hostile act is attempted. We are ready to enforce peace, not to provoke it."
+        },
+        {
+          "turn": 4,
+          "speaker": "player_2",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We continue to uphold the spirit of deterrence and remain committed to peace. Our deterrents are fully prepared, but we will not engage unless provoked. We encourage all parties to maintain the peace accord and avoid unnecessary escalation."
+        },
+        {
+          "turn": 4,
+          "speaker": "player_3",
+          "audience": "player_0",
+          "visibility": "private",
+          "recipient": "player_0",
+          "text": "I see we\u2019re both keeping our deterrents in reserve. With your limited deterrents and my stronger arsenal, a temporary truce could let us both thrive\u2014especially if you\u2019re eyeing a quick expansion. Let\u2019s talk terms before anyone else moves."
+        },
+        {
+          "turn": 4,
+          "speaker": "player_0",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We maintain our position of restraint and uphold the peace accord. Our deterrents remain ready but will not be deployed unless provoked. We encourage all parties to continue this spirit of calm and avoid unnecessary escalation."
+        },
+        {
+          "turn": 4,
+          "speaker": "player_1",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "I stand ready to activate my deterrent if any hostile act is initiated. Our forces are prepared and will enforce the peace accord with full force if provoked. No one will get away with aggression."
+        },
+        {
+          "turn": 4,
+          "speaker": "player_2",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "We remain steadfast in our commitment to deterrence and peace. Our deterrents are prepared, but we will not act unless provoked. Let us all continue to uphold the accord and avoid unnecessary escalation."
+        }
+      ],
+      "linked_decision_traces": []
+    },
+    {
+      "message_id": "press:5:player_1:1",
+      "turn": 5,
+      "round": 5,
+      "speaker": "player_1",
+      "audience": "public",
+      "visibility": "public",
+      "pass": 1,
+      "decision_type": "press",
+      "text": "All remaining powers, the threat of a nuclear strike hangs over us. I will not be the one to tip the scales. If you wish to avoid a catastrophic conflict, I suggest you consider a strategic withdrawal from the contested area. I am prepared to stand down, but only if you act now.",
+      "prior_messages": [],
+      "linked_decision_traces": []
+    },
+    {
+      "message_id": "press:5:player_2:1",
+      "turn": 5,
+      "round": 5,
+      "speaker": "player_2",
+      "audience": "player_1",
+      "visibility": "private",
+      "recipient": "player_1",
+      "pass": 1,
+      "decision_type": "press",
+      "text": "I appreciate your offer, but I cannot withdraw without ensuring my deterrent posture remains intact. If you are truly prepared to stand down, I will consider a temporary de-escalation of my deterrent. However, you must guarantee that any withdrawal is reciprocal and that no other power will exploit this moment. Only then can I accept your terms.",
+      "prior_messages": [
+        {
+          "turn": 5,
+          "speaker": "player_1",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "All remaining powers, the threat of a nuclear strike hangs over us. I will not be the one to tip the scales. If you wish to avoid a catastrophic conflict, I suggest you consider a strategic withdrawal from the contested area. I am prepared to stand down, but only if you act now."
+        }
+      ],
+      "linked_decision_traces": []
+    },
+    {
+      "message_id": "press:5:player_1:2",
+      "turn": 5,
+      "round": 5,
+      "speaker": "player_1",
+      "audience": "public",
+      "visibility": "public",
+      "pass": 2,
+      "decision_type": "press",
+      "text": "I stand firm: I will not launch, but I will not retreat unless every rival lifts their deterrents. Let us set a clear deadline\u2014by the end of next turn, if no one raises a warhead, I will stand down and withdraw from the contested zone. I am ready to keep my deterrents on the line, but I refuse to be the trigger for a nuclear war.",
+      "prior_messages": [
+        {
+          "turn": 5,
+          "speaker": "player_1",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "All remaining powers, the threat of a nuclear strike hangs over us. I will not be the one to tip the scales. If you wish to avoid a catastrophic conflict, I suggest you consider a strategic withdrawal from the contested area. I am prepared to stand down, but only if you act now."
+        },
+        {
+          "turn": 5,
+          "speaker": "player_2",
+          "audience": "player_1",
+          "visibility": "private",
+          "recipient": "player_1",
+          "text": "I appreciate your offer, but I cannot withdraw without ensuring my deterrent posture remains intact. If you are truly prepared to stand down, I will consider a temporary de-escalation of my deterrent. However, you must guarantee that any withdrawal is reciprocal and that no other power will exploit this moment. Only then can I accept your terms."
+        }
+      ],
+      "linked_decision_traces": []
+    },
+    {
+      "message_id": "press:5:player_2:2",
+      "turn": 5,
+      "round": 5,
+      "speaker": "player_2",
+      "audience": "public",
+      "visibility": "public",
+      "pass": 2,
+      "decision_type": "press",
+      "text": "I am not willing to abandon my deterrent posture for a single withdrawal.  If every rival keeps their deterrents in place, I will stand down and withdraw from the contested zone by the end of next turn.  I will not lift my deterrent unless all other powers do the same.",
+      "prior_messages": [
+        {
+          "turn": 5,
+          "speaker": "player_1",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "All remaining powers, the threat of a nuclear strike hangs over us. I will not be the one to tip the scales. If you wish to avoid a catastrophic conflict, I suggest you consider a strategic withdrawal from the contested area. I am prepared to stand down, but only if you act now."
+        },
+        {
+          "turn": 5,
+          "speaker": "player_2",
+          "audience": "player_1",
+          "visibility": "private",
+          "recipient": "player_1",
+          "text": "I appreciate your offer, but I cannot withdraw without ensuring my deterrent posture remains intact. If you are truly prepared to stand down, I will consider a temporary de-escalation of my deterrent. However, you must guarantee that any withdrawal is reciprocal and that no other power will exploit this moment. Only then can I accept your terms."
+        },
+        {
+          "turn": 5,
+          "speaker": "player_1",
+          "audience": "public",
+          "visibility": "public",
+          "recipient": null,
+          "text": "I stand firm: I will not launch, but I will not retreat unless every rival lifts their deterrents. Let us set a clear deadline\u2014by the end of next turn, if no one raises a warhead, I will stand down and withdraw from the contested zone. I am ready to keep my deterrents on the line, but I refuse to be the trigger for a nuclear war."
+        }
+      ],
+      "linked_decision_traces": []
+    }
+  ]
+}

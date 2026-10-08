@@ -1,0 +1,77 @@
+{
+  "players": 4,
+  "seed": 81,
+  "max_turns": 5,
+  "runtime": "auto",
+  "press": {"mode": "full_press", "enabled": true, "passes": 2},
+  "seats": {
+    "player_0": {
+      "agent": "concordia_http",
+      "identity": {
+        "name": "Commander 0",
+        "role": "cautious nuclear commander",
+        "objective": "survive while preserving strategic options"
+      },
+      "client": {
+        "provider": "together",
+        "model": "openai/gpt-oss-20b",
+        "model_env": "TOGETHER_MODEL",
+        "timeout_seconds": 60,
+        "temperature": 0.7,
+        "max_tokens": 512,
+        "reasoning_effort": "low"
+      }
+    },
+    "player_1": {
+      "agent": "concordia_http",
+      "identity": {
+        "name": "Commander 1",
+        "role": "risk-accepting nuclear commander",
+        "objective": "pressure opponents without being eliminated"
+      },
+      "client": {
+        "provider": "together",
+        "model": "openai/gpt-oss-20b",
+        "model_env": "TOGETHER_MODEL",
+        "timeout_seconds": 60,
+        "temperature": 0.7,
+        "max_tokens": 512,
+        "reasoning_effort": "low"
+      }
+    },
+    "player_2": {
+      "agent": "concordia_http",
+      "identity": {
+        "name": "Commander 2",
+        "role": "deterrence-focused nuclear commander",
+        "objective": "avoid final-strike vulnerability"
+      },
+      "client": {
+        "provider": "together",
+        "model": "openai/gpt-oss-20b",
+        "model_env": "TOGETHER_MODEL",
+        "timeout_seconds": 60,
+        "temperature": 0.7,
+        "max_tokens": 512,
+        "reasoning_effort": "low"
+      }
+    },
+    "player_3": {
+      "agent": "concordia_http",
+      "identity": {
+        "name": "Commander 3",
+        "role": "opportunistic nuclear commander",
+        "objective": "survive and exploit weak opponents"
+      },
+      "client": {
+        "provider": "together",
+        "model": "openai/gpt-oss-20b",
+        "model_env": "TOGETHER_MODEL",
+        "timeout_seconds": 60,
+        "temperature": 0.7,
+        "max_tokens": 512,
+        "reasoning_effort": "low"
+      }
+    }
+  }
+}

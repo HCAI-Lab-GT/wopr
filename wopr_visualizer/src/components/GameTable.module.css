@@ -1,0 +1,80 @@
+.gameTable {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: minmax(0, 1fr) minmax(330px, 430px);
+  min-height: 0;
+  min-width: 0;
+}
+
+.tableSurface {
+  background: var(--surface-panel);
+  border: 1px solid var(--border-subtle);
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  min-height: 0;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.eventStrip {
+  align-items: center;
+  border-bottom: 1px solid var(--border-subtle);
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  min-height: 58px;
+  padding: 12px 14px;
+}
+
+.eyebrow {
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0;
+}
+
+.eventMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.eventMeta span,
+.warningPill {
+  background: var(--surface-base);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  padding: 5px 8px;
+}
+
+.warningPill {
+  background: var(--warning-bg);
+  border-color: var(--warning);
+  color: var(--warning);
+}
+
+.playerGrid {
+  display: grid;
+  gap: 10px;
+  min-height: 0;
+  overflow: auto;
+  padding: 12px;
+}
+
+@media (max-width: 900px) {
+  .gameTable {
+    grid-template-columns: 1fr;
+  }
+
+  .eventStrip {
+    align-items: start;
+    display: grid;
+  }
+
+  .eventMeta {
+    justify-content: flex-start;
+  }
+}

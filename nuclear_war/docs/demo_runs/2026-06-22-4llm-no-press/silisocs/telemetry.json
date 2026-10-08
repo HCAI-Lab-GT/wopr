@@ -1,0 +1,19 @@
+{
+  "adapter": "wopr_silisocs",
+  "artifacts": {
+    "replay": "wopr/replay.json",
+    "summary": "wopr/summary.json",
+    "traces": "wopr/traces.json"
+  },
+  "max_turns": 500,
+  "players": 4,
+  "runs": 1,
+  "runtime_contracts": {
+    "action_output": "silisocs.runtime.types.ActionOutput",
+    "action_spec": "silisocs.runtime.types.ActionSpec",
+    "agent": "silisocs.agents.base_agent.Agent",
+    "backend": "silisocs.environments.backends.base.BackendApp"
+  },
+  "scenario_name": "nuclear_war_no_press",
+  "seed_start": 41
+}

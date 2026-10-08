@@ -1,0 +1,31 @@
+.errorBoundary {
+  background: var(--surface-panel);
+  border: 1px solid var(--border-subtle);
+  display: grid;
+  gap: 14px;
+  margin: 10vh auto;
+  max-width: 560px;
+  padding: 24px;
+}
+
+.eyebrow {
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0;
+}
+
+.button {
+  align-items: center;
+  background: var(--surface-raised);
+  border: 1px solid var(--border-strong);
+  border-radius: 6px;
+  color: var(--text-primary);
+  cursor: pointer;
+  display: inline-flex;
+  font: inherit;
+  justify-content: center;
+  min-height: 36px;
+  padding: 8px 12px;
+  width: fit-content;
+}

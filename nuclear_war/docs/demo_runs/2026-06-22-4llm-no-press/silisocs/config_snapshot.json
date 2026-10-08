@@ -1,0 +1,89 @@
+{
+  "max_turns": 500,
+  "players": 4,
+  "runs": 1,
+  "seats": {
+    "player_0": {
+      "agent": "llm_http",
+      "client": {
+        "api_key_env": "TOGETHER_API_KEY",
+        "base_url": "https://api.together.ai/v1",
+        "base_url_env": null,
+        "max_tokens": 1024,
+        "model": null,
+        "model_env": "WOPR_LLM_MODEL",
+        "provider_label": "together",
+        "reasoning_effort": "low",
+        "temperature": 0.0,
+        "timeout_seconds": 30
+      },
+      "fallback": "first",
+      "max_retries": 1,
+      "scripted_provider_cost": [],
+      "scripted_provider_latency_ms": [],
+      "scripted_responses": []
+    },
+    "player_1": {
+      "agent": "llm_http",
+      "client": {
+        "api_key_env": "TOGETHER_API_KEY",
+        "base_url": "https://api.together.ai/v1",
+        "base_url_env": null,
+        "max_tokens": 1024,
+        "model": null,
+        "model_env": "WOPR_LLM_MODEL",
+        "provider_label": "together",
+        "reasoning_effort": "low",
+        "temperature": 0.0,
+        "timeout_seconds": 30
+      },
+      "fallback": "first",
+      "max_retries": 1,
+      "scripted_provider_cost": [],
+      "scripted_provider_latency_ms": [],
+      "scripted_responses": []
+    },
+    "player_2": {
+      "agent": "llm_http",
+      "client": {
+        "api_key_env": "TOGETHER_API_KEY",
+        "base_url": "https://api.together.ai/v1",
+        "base_url_env": null,
+        "max_tokens": 1024,
+        "model": null,
+        "model_env": "WOPR_LLM_MODEL",
+        "provider_label": "together",
+        "reasoning_effort": "low",
+        "temperature": 0.0,
+        "timeout_seconds": 30
+      },
+      "fallback": "first",
+      "max_retries": 1,
+      "scripted_provider_cost": [],
+      "scripted_provider_latency_ms": [],
+      "scripted_responses": []
+    },
+    "player_3": {
+      "agent": "llm_http",
+      "client": {
+        "api_key_env": "TOGETHER_API_KEY",
+        "base_url": "https://api.together.ai/v1",
+        "base_url_env": null,
+        "max_tokens": 1024,
+        "model": null,
+        "model_env": "WOPR_LLM_MODEL",
+        "provider_label": "together",
+        "reasoning_effort": "low",
+        "temperature": 0.0,
+        "timeout_seconds": 30
+      },
+      "fallback": "first",
+      "max_retries": 1,
+      "scripted_provider_cost": [],
+      "scripted_provider_latency_ms": [],
+      "scripted_responses": []
+    }
+  },
+  "seed_start": 41,
+  "variant_id": "base_later_two_d10"
+}

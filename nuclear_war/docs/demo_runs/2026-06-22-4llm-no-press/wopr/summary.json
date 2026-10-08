@@ -1,0 +1,50 @@
+{
+  "elimination_order": [
+    "player_0",
+    "player_1",
+    "player_2",
+    "player_3"
+  ],
+  "invalid_action_count": 0,
+  "player_decision_metrics": {
+    "player_0": {
+      "invalid_action_count": 0,
+      "invalid_action_rate": 0.0,
+      "retry_count": 0,
+      "retry_rate": 0.0,
+      "trace_count": 69
+    },
+    "player_1": {
+      "invalid_action_count": 0,
+      "invalid_action_rate": 0.0,
+      "retry_count": 0,
+      "retry_rate": 0.0,
+      "trace_count": 32
+    },
+    "player_2": {
+      "invalid_action_count": 0,
+      "invalid_action_rate": 0.0,
+      "retry_count": 0,
+      "retry_rate": 0.0,
+      "trace_count": 76
+    },
+    "player_3": {
+      "invalid_action_count": 0,
+      "invalid_action_rate": 0.0,
+      "retry_count": 0,
+      "retry_rate": 0.0,
+      "trace_count": 22
+    }
+  },
+  "provider_latency_ms": 260521,
+  "retry_count": 0,
+  "trace_count": 199,
+  "turns": 31,
+  "win_loss": {
+    "player_0": "draw",
+    "player_1": "draw",
+    "player_2": "draw",
+    "player_3": "draw"
+  },
+  "winner": null
+}

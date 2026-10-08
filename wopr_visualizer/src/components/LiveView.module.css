@@ -1,0 +1,84 @@
+.liveView {
+  display: grid;
+  gap: 16px;
+  min-height: 0;
+  min-width: 0;
+}
+
+.statusBar {
+  align-items: center;
+  border-bottom: 1px solid var(--border-subtle);
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  padding: 18px 24px;
+}
+
+.statusBar h1 {
+  font-size: 22px;
+  font-weight: 650;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+.eyebrow {
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0;
+}
+
+.statusLine {
+  color: var(--text-secondary);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.statusLine span {
+  background: var(--surface-base);
+  border: 1px solid var(--border-subtle);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  padding: 5px 8px;
+}
+
+.workspace {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 360px);
+  min-height: 0;
+  min-width: 0;
+  padding: 0 24px 16px;
+}
+
+.emptyTable {
+  background: var(--surface-panel);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  min-height: 240px;
+  padding: 16px;
+}
+
+@media (max-width: 1100px) {
+  .workspace {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 900px) {
+  .statusBar {
+    align-items: start;
+    display: grid;
+    padding: 14px 12px;
+  }
+
+  .statusLine {
+    justify-content: flex-start;
+  }
+
+  .workspace {
+    padding: 0 12px 12px;
+  }
+}

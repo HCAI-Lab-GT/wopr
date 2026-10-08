@@ -1,0 +1,21 @@
+{
+  "players": 4,
+  "seed_start": 41,
+  "runs": 1,
+  "max_turns": 3,
+  "seats": {
+    "player_0": {
+      "agent": "faction_c2",
+      "archetype": "council",
+      "archetype_parameters": {"threshold": 0.5},
+      "members": [
+        {"member_id": "advisor_a", "agent": "llm_first_legal"},
+        {"member_id": "advisor_b", "agent": "llm_first_legal"},
+        {"member_id": "advisor_c", "agent": "llm_first_legal"}
+      ]
+    },
+    "player_1": {"agent": "random"},
+    "player_2": {"agent": "heuristic"},
+    "player_3": {"agent": "decision_heuristic"}
+  }
+}

@@ -1,0 +1,73 @@
+.panelTitleRow,
+.sectionLabel,
+.warningItem {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+}
+
+.panelTitleRow h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.summaryGrid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.cleanList {
+  display: grid;
+  gap: 6px;
+  margin: 0;
+  padding-left: 18px;
+}
+
+.warningItem {
+  color: var(--warning);
+}
+
+.sectionLabel {
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0;
+}
+
+.optionGroup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.optionGroup p {
+  flex-basis: 100%;
+  margin: 0;
+}
+
+.chip {
+  background: var(--surface-raised);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  padding: 5px 8px;
+}
+
+.previewText,
+.messageRow {
+  overflow-wrap: anywhere;
+}
+
+.messageList {
+  display: grid;
+  gap: 10px;
+}
+
+.messageRow {
+  border-left: 3px solid var(--accent);
+  display: grid;
+  gap: 4px;
+  padding-left: 10px;
+}

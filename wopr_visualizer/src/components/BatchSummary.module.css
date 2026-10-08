@@ -1,0 +1,104 @@
+.summary {
+  background: var(--surface-panel);
+  border: 1px solid var(--border-subtle);
+  display: grid;
+  gap: 14px;
+  min-width: 0;
+}
+
+.sectionHeader {
+  align-items: center;
+  border-bottom: 1px solid var(--border-subtle);
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 14px;
+}
+
+.eyebrow,
+.label {
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: 11px;
+}
+
+.grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  padding: 0 14px;
+}
+
+.statPanel {
+  background: var(--surface-base);
+  border: 1px solid var(--border-subtle);
+  display: grid;
+  gap: 6px;
+  padding: 12px;
+}
+
+.statValue {
+  color: var(--text-primary);
+  font-family: var(--font-mono);
+  font-size: 18px;
+}
+
+.tables {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  padding: 0 14px 14px;
+}
+
+.tablePanel {
+  background: var(--surface-base);
+  border: 1px solid var(--border-subtle);
+  display: grid;
+  gap: 8px;
+  padding: 12px;
+}
+
+.table {
+  border-collapse: collapse;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  width: 100%;
+}
+
+.table th,
+.table td {
+  padding: 6px 8px;
+  text-align: left;
+}
+
+.table thead th {
+  border-bottom: 1px solid var(--border-strong);
+  color: var(--text-muted);
+  font-weight: normal;
+}
+
+.table tbody tr:hover {
+  background: var(--surface-changed);
+}
+
+.win {
+  color: var(--stable);
+}
+
+.loss {
+  color: var(--danger);
+}
+
+.tag {
+  background: var(--surface-base);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  padding: 4px 7px;
+}
+
+.empty {
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: 12px;
+}

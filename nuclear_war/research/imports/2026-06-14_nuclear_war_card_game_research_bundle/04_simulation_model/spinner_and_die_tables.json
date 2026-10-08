@@ -1,0 +1,144 @@
+{
+  "base_two_d10_fallout_chart": [
+    {
+      "range": "00-04",
+      "name": "Missile booster explodes on launch",
+      "condition": "attack was not with a bomber",
+      "effect": "attacker takes warhead damage; discard delivery system/warhead per rules"
+    },
+    {
+      "range": "00-04",
+      "name": "Bomber runs out of fuel",
+      "condition": "attack was with a bomber",
+      "effect": "discard all cards in attacker face-up card location; no target damage"
+    },
+    {
+      "range": "05-09",
+      "name": "Dud warhead",
+      "condition": "all",
+      "effect": "no damage"
+    },
+    {
+      "range": "10-22",
+      "name": "Bomb shelter saves 2 million",
+      "condition": "all",
+      "effect": "target damage = max(0, warhead_damage - 2M)"
+    },
+    {
+      "range": "23-35",
+      "name": "Additional 1 million engulfed in fireball",
+      "condition": "all",
+      "effect": "target damage = warhead_damage + 1M"
+    },
+    {
+      "range": "36-49",
+      "name": "No appreciable radiation fallout",
+      "condition": "all",
+      "effect": "target damage = warhead_damage"
+    },
+    {
+      "range": "50-63",
+      "name": "Radioactive fallout kills another 2 million",
+      "condition": "all",
+      "effect": "target damage = warhead_damage + 2M"
+    },
+    {
+      "range": "64-76",
+      "name": "Radioactive beta rays kill another 5 million",
+      "condition": "all",
+      "effect": "target damage = warhead_damage + 5M"
+    },
+    {
+      "range": "77-89",
+      "name": "Lethal gamma rays kill another 10 million",
+      "condition": "all",
+      "effect": "target damage = warhead_damage + 10M"
+    },
+    {
+      "range": "90-94",
+      "name": "Dirty Bomb! Double the Yield",
+      "condition": "all",
+      "effect": "target damage = 2 * warhead_damage"
+    },
+    {
+      "range": "95-99",
+      "name": "Explodes a nuclear stockpile! Triple Yield!",
+      "condition": "all",
+      "effect": "target damage = 3 * warhead_damage; if attacking warhead is 100MT, trigger Super Chain Reaction/everyone loses per base rules"
+    }
+  ],
+  "nuclear_destruction_spinner_categories": [
+    {
+      "name": "Radioactive Beta Rays Kill another 5 million",
+      "effect": "add 5M target population loss"
+    },
+    {
+      "name": "Additional 1 million engulfed in fireball",
+      "effect": "add 1M target population loss"
+    },
+    {
+      "name": "Dirty Bomb! Double the Yield",
+      "effect": "double population loss; 200MT+ warhead blows up world in ND rules"
+    },
+    {
+      "name": "No Appreciable Radiation Fallout",
+      "effect": "no extra effect"
+    },
+    {
+      "name": "Explodes a Nuclear Stockpile Triple the Yield",
+      "effect": "triple population loss; 100MT+ warhead blows up world in ND rules"
+    },
+    {
+      "name": "Bomb Shelters Save 2 Million",
+      "effect": "reduce population loss by 2M, minimum 0"
+    },
+    {
+      "name": "Lethal Doses of Radioactive Gamma Rays Kill Another 10 Million",
+      "effect": "add 10M population loss"
+    },
+    {
+      "name": "Dud Warhead",
+      "effect": "no population loss; warhead remains on delivery system in ND rules"
+    },
+    {
+      "name": "Radioactive Fallout Kills Another 2 Million",
+      "effect": "add 2M population loss"
+    },
+    {
+      "name": "Missile Booster Explodes on Launch or Bomber Runs Out of Fuel",
+      "effect": "discard delivery system and warhead(s); attack ends"
+    }
+  ],
+  "nuclear_escalation_die_results_in_nuclear_destruction_rules": [
+    {
+      "face": "Cloud",
+      "name": "Disaster/self-strike",
+      "effect": "attacker loses population rather than target"
+    },
+    {
+      "face": "2",
+      "name": "Orbital Burst",
+      "effect": "discard delivery system and face-up warheads on attacker mat; attacker skips next turn"
+    },
+    {
+      "face": "3",
+      "name": "Booster explodes/fuel failure",
+      "effect": "discard delivery system and warhead(s); attack ends"
+    },
+    {
+      "face": "4",
+      "name": "Dud",
+      "effect": "warhead placed on delivery system without effect; attack ends"
+    },
+    {
+      "face": "5",
+      "name": "Neutron Bomb",
+      "effect": "double population loss listed on warhead"
+    },
+    {
+      "face": "6",
+      "name": "Nuclear power plant hit",
+      "effect": "double population loss; opponent misses one turn"
+    }
+  ]
+}

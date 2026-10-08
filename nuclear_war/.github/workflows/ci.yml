@@ -1,0 +1,20 @@
+name: Phase 0 CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  phase0:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v3
+        with:
+          python-version: "3.13"
+      - name: Install dependencies
+        run: uv pip install --system -e .[dev]
+      - name: Validate Phase 0 guardrails
+        run: uv run scripts/validate-phase
+        env:
+          WOPR_REQUIRE_CONCORDIA: "1"

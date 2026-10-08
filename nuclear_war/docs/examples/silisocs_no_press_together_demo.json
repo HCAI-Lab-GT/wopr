@@ -1,0 +1,30 @@
+{
+  "players": 4,
+  "seed_start": 31,
+  "runs": 1,
+  "max_turns": 1,
+  "seats": {
+    "player_0": {
+      "agent": "llm_http",
+      "max_retries": 1,
+      "fallback": "first",
+      "client": {
+        "provider": "together",
+        "model_env": "WOPR_LLM_MODEL",
+        "timeout_seconds": 30,
+        "temperature": 0.0,
+        "max_tokens": 1024,
+        "reasoning_effort": "low"
+      }
+    },
+    "player_1": {
+      "agent": "random"
+    },
+    "player_2": {
+      "agent": "heuristic"
+    },
+    "player_3": {
+      "agent": "decision_heuristic"
+    }
+  }
+}

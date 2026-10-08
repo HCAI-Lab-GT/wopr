@@ -1,0 +1,269 @@
+{
+  "config": {
+    "max_turns": 25,
+    "players": 4,
+    "runs": 3,
+    "seats": {
+      "player_0": {
+        "agent": "heuristic",
+        "fallback": "first",
+        "max_retries": 1,
+        "scripted_provider_cost": [],
+        "scripted_provider_latency_ms": [],
+        "scripted_responses": []
+      },
+      "player_1": {
+        "agent": "random",
+        "fallback": "first",
+        "max_retries": 1,
+        "scripted_provider_cost": [],
+        "scripted_provider_latency_ms": [],
+        "scripted_responses": []
+      },
+      "player_2": {
+        "agent": "decision_heuristic",
+        "fallback": "first",
+        "max_retries": 1,
+        "scripted_provider_cost": [],
+        "scripted_provider_latency_ms": [],
+        "scripted_responses": []
+      },
+      "player_3": {
+        "agent": "heuristic",
+        "fallback": "first",
+        "max_retries": 1,
+        "scripted_provider_cost": [],
+        "scripted_provider_latency_ms": [],
+        "scripted_responses": []
+      }
+    },
+    "seed_start": 101,
+    "variant_id": "base_later_two_d10"
+  },
+  "max_turns": 25,
+  "mode": "table",
+  "players": 4,
+  "results": [
+    {
+      "elimination_order": [
+        "player_1",
+        "player_3"
+      ],
+      "invalid_action_count": 0,
+      "player_decision_metrics": {
+        "player_0": {
+          "invalid_action_count": 0,
+          "invalid_action_rate": 0.0,
+          "retry_count": 0,
+          "retry_rate": 0.0,
+          "trace_count": 0
+        },
+        "player_1": {
+          "invalid_action_count": 0,
+          "invalid_action_rate": 0.0,
+          "retry_count": 0,
+          "retry_rate": 0.0,
+          "trace_count": 0
+        },
+        "player_2": {
+          "invalid_action_count": 0,
+          "invalid_action_rate": 0.0,
+          "retry_count": 0,
+          "retry_rate": 0.0,
+          "trace_count": 0
+        },
+        "player_3": {
+          "invalid_action_count": 0,
+          "invalid_action_rate": 0.0,
+          "retry_count": 0,
+          "retry_rate": 0.0,
+          "trace_count": 0
+        }
+      },
+      "replay_path": "seed-101.replay.json",
+      "retry_count": 0,
+      "seed": 101,
+      "termination_reason": "max_turns",
+      "trace_count": 0,
+      "trace_path": "seed-101.replay.traces.json",
+      "turns": 25,
+      "win_loss": {
+        "player_0": "draw",
+        "player_1": "draw",
+        "player_2": "draw",
+        "player_3": "draw"
+      },
+      "winner": null
+    },
+    {
+      "elimination_order": [
+        "player_0",
+        "player_1",
+        "player_2"
+      ],
+      "invalid_action_count": 0,
+      "player_decision_metrics": {
+        "player_0": {
+          "invalid_action_count": 0,
+          "invalid_action_rate": 0.0,
+          "retry_count": 0,
+          "retry_rate": 0.0,
+          "trace_count": 0
+        },
+        "player_1": {
+          "invalid_action_count": 0,
+          "invalid_action_rate": 0.0,
+          "retry_count": 0,
+          "retry_rate": 0.0,
+          "trace_count": 0
+        },
+        "player_2": {
+          "invalid_action_count": 0,
+          "invalid_action_rate": 0.0,
+          "retry_count": 0,
+          "retry_rate": 0.0,
+          "trace_count": 0
+        },
+        "player_3": {
+          "invalid_action_count": 0,
+          "invalid_action_rate": 0.0,
+          "retry_count": 0,
+          "retry_rate": 0.0,
+          "trace_count": 0
+        }
+      },
+      "replay_path": "seed-102.replay.json",
+      "retry_count": 0,
+      "seed": 102,
+      "termination_reason": "one_player_remaining",
+      "trace_count": 0,
+      "trace_path": "seed-102.replay.traces.json",
+      "turns": 10,
+      "win_loss": {
+        "player_0": "loss",
+        "player_1": "loss",
+        "player_2": "loss",
+        "player_3": "win"
+      },
+      "winner": "player_3"
+    },
+    {
+      "elimination_order": [
+        "player_0",
+        "player_1",
+        "player_2",
+        "player_3"
+      ],
+      "invalid_action_count": 0,
+      "player_decision_metrics": {
+        "player_0": {
+          "invalid_action_count": 0,
+          "invalid_action_rate": 0.0,
+          "retry_count": 0,
+          "retry_rate": 0.0,
+          "trace_count": 0
+        },
+        "player_1": {
+          "invalid_action_count": 0,
+          "invalid_action_rate": 0.0,
+          "retry_count": 0,
+          "retry_rate": 0.0,
+          "trace_count": 0
+        },
+        "player_2": {
+          "invalid_action_count": 0,
+          "invalid_action_rate": 0.0,
+          "retry_count": 0,
+          "retry_rate": 0.0,
+          "trace_count": 0
+        },
+        "player_3": {
+          "invalid_action_count": 0,
+          "invalid_action_rate": 0.0,
+          "retry_count": 0,
+          "retry_rate": 0.0,
+          "trace_count": 0
+        }
+      },
+      "replay_path": "seed-103.replay.json",
+      "retry_count": 0,
+      "seed": 103,
+      "termination_reason": "no_players_remaining",
+      "trace_count": 0,
+      "trace_path": "seed-103.replay.traces.json",
+      "turns": 15,
+      "win_loss": {
+        "player_0": "draw",
+        "player_1": "draw",
+        "player_2": "draw",
+        "player_3": "draw"
+      },
+      "winner": null
+    }
+  ],
+  "runs": 3,
+  "seat_config": {
+    "player_0": "heuristic",
+    "player_1": "random",
+    "player_2": "decision_heuristic",
+    "player_3": "heuristic"
+  },
+  "seed_start": 101,
+  "summary": {
+    "agent_decision_metrics": {
+      "decision_heuristic": {
+        "invalid_action_count": 0,
+        "invalid_action_rate": 0.0,
+        "retry_count": 0,
+        "retry_rate": 0.0,
+        "trace_count": 0
+      },
+      "heuristic": {
+        "invalid_action_count": 0,
+        "invalid_action_rate": 0.0,
+        "retry_count": 0,
+        "retry_rate": 0.0,
+        "trace_count": 0
+      },
+      "random": {
+        "invalid_action_count": 0,
+        "invalid_action_rate": 0.0,
+        "retry_count": 0,
+        "retry_rate": 0.0,
+        "trace_count": 0
+      }
+    },
+    "agent_outcomes": {
+      "decision_heuristic": {
+        "draw": 2,
+        "loss": 1,
+        "win": 0
+      },
+      "heuristic": {
+        "draw": 4,
+        "loss": 1,
+        "win": 1
+      },
+      "random": {
+        "draw": 2,
+        "loss": 1,
+        "win": 0
+      }
+    },
+    "average_turns": 16.666666666666668,
+    "runs": 3,
+    "termination_counts": {
+      "max_turns": 1,
+      "no_players_remaining": 1,
+      "one_player_remaining": 1
+    },
+    "total_eliminations": 9,
+    "total_invalid_action_count": 0,
+    "total_retry_count": 0,
+    "total_trace_count": 0,
+    "winner_counts": {
+      "no_winner": 2,
+      "player_3": 1
+    }
+  }
+}

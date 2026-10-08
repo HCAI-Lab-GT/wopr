@@ -1,0 +1,4764 @@
+{
+  "actions": [
+    {
+      "action_id": "player_0:secret_target:{\"card\":\"nw_base_59743030\",\"target\":\"player_1\"}",
+      "action_type": "secret_target",
+      "payload": {
+        "card": "nw_base_59743030",
+        "target": "player_1"
+      },
+      "player_id": "player_0",
+      "turn": 1
+    },
+    {
+      "action_id": "player_0:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 1
+    },
+    {
+      "action_id": "player_0:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 1
+    },
+    {
+      "action_id": "player_0:enqueue:{\"cards\":[\"nw_base_782a2d4e__copy_05\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_782a2d4e__copy_05"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 1
+    },
+    {
+      "action_id": "player_1:secret_target:{\"card\":\"nw_base_cef59053\",\"target\":\"player_3\"}",
+      "action_type": "secret_target",
+      "payload": {
+        "card": "nw_base_cef59053",
+        "target": "player_3"
+      },
+      "player_id": "player_1",
+      "turn": 1
+    },
+    {
+      "action_id": "player_1:secret_target:{\"card\":\"nw_base_5df64089\",\"target\":\"player_2\"}",
+      "action_type": "secret_target",
+      "payload": {
+        "card": "nw_base_5df64089",
+        "target": "player_2"
+      },
+      "player_id": "player_1",
+      "turn": 1
+    },
+    {
+      "action_id": "player_1:secret_target:{\"card\":\"nw_base_a82055e8\",\"target\":\"player_3\"}",
+      "action_type": "secret_target",
+      "payload": {
+        "card": "nw_base_a82055e8",
+        "target": "player_3"
+      },
+      "player_id": "player_1",
+      "turn": 1
+    },
+    {
+      "action_id": "player_1:secret_target:{\"card\":\"nw_base_9c4a685d\",\"target\":\"player_0\"}",
+      "action_type": "secret_target",
+      "payload": {
+        "card": "nw_base_9c4a685d",
+        "target": "player_0"
+      },
+      "player_id": "player_1",
+      "turn": 1
+    },
+    {
+      "action_id": "player_1:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_1",
+      "turn": 1
+    },
+    {
+      "action_id": "player_1:modify_deterrent:{\"card\":\"nw_base_524da209__copy_02\",\"to_slot\":1}",
+      "action_type": "modify_deterrent",
+      "payload": {
+        "card": "nw_base_524da209__copy_02",
+        "to_slot": 1
+      },
+      "player_id": "player_1",
+      "turn": 1
+    },
+    {
+      "action_id": "player_1:enqueue:{\"cards\":[\"nw_base_17d18cbc__copy_01\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_17d18cbc__copy_01"
+        ]
+      },
+      "player_id": "player_1",
+      "turn": 1
+    },
+    {
+      "action_id": "player_2:secret_target:{\"card\":\"nw_base_4f7e97eb\",\"target\":\"player_1\"}",
+      "action_type": "secret_target",
+      "payload": {
+        "card": "nw_base_4f7e97eb",
+        "target": "player_1"
+      },
+      "player_id": "player_2",
+      "turn": 1
+    },
+    {
+      "action_id": "player_2:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 1
+    },
+    {
+      "action_id": "player_2:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 1
+    },
+    {
+      "action_id": "player_2:enqueue:{\"cards\":[\"nw_base_817ae772__copy_08\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_817ae772__copy_08"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 1
+    },
+    {
+      "action_id": "player_3:secret_target:{\"card\":\"nw_base_1e921213\",\"target\":\"player_1\"}",
+      "action_type": "secret_target",
+      "payload": {
+        "card": "nw_base_1e921213",
+        "target": "player_1"
+      },
+      "player_id": "player_3",
+      "turn": 1
+    },
+    {
+      "action_id": "player_3:secret_target:{\"card\":\"nw_base_bdab30a4\",\"target\":\"player_1\"}",
+      "action_type": "secret_target",
+      "payload": {
+        "card": "nw_base_bdab30a4",
+        "target": "player_1"
+      },
+      "player_id": "player_3",
+      "turn": 1
+    },
+    {
+      "action_id": "player_3:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_3",
+      "turn": 1
+    },
+    {
+      "action_id": "player_3:propaganda_target:{\"card\":\"nw_base_b3a2b1d5__copy_04\",\"target\":\"player_2\"}",
+      "action_type": "propaganda_target",
+      "payload": {
+        "card": "nw_base_b3a2b1d5__copy_04",
+        "target": "player_2"
+      },
+      "player_id": "player_3",
+      "turn": 1
+    },
+    {
+      "action_id": "player_3:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_3",
+      "turn": 1
+    },
+    {
+      "action_id": "player_3:enqueue:{\"cards\":[\"nw_base_817ae772__copy_04\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_817ae772__copy_04"
+        ]
+      },
+      "player_id": "player_3",
+      "turn": 1
+    },
+    {
+      "action_id": "player_0:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 2
+    },
+    {
+      "action_id": "player_0:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 2
+    },
+    {
+      "action_id": "player_0:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 2
+    },
+    {
+      "action_id": "player_0:enqueue:{\"cards\":[\"nw_base_f135174f__copy_04\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_f135174f__copy_04"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 2
+    },
+    {
+      "action_id": "player_1:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_1",
+      "turn": 2
+    },
+    {
+      "action_id": "player_1:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_1",
+      "turn": 2
+    },
+    {
+      "action_id": "player_1:modify_deterrent:{\"from_slot\":1}",
+      "action_type": "modify_deterrent",
+      "payload": {
+        "from_slot": 1
+      },
+      "player_id": "player_1",
+      "turn": 2
+    },
+    {
+      "action_id": "player_1:enqueue:{\"cards\":[\"nw_base_f135174f__copy_19\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_f135174f__copy_19"
+        ]
+      },
+      "player_id": "player_1",
+      "turn": 2
+    },
+    {
+      "action_id": "player_2:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 2
+    },
+    {
+      "action_id": "player_2:secret_target:{\"card\":\"nw_base_88397cd6\",\"target\":\"player_1\"}",
+      "action_type": "secret_target",
+      "payload": {
+        "card": "nw_base_88397cd6",
+        "target": "player_1"
+      },
+      "player_id": "player_2",
+      "turn": 2
+    },
+    {
+      "action_id": "player_2:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 2
+    },
+    {
+      "action_id": "player_2:propaganda_target:{\"card\":\"nw_base_ce2c2080__copy_04\",\"target\":\"player_1\"}",
+      "action_type": "propaganda_target",
+      "payload": {
+        "card": "nw_base_ce2c2080__copy_04",
+        "target": "player_1"
+      },
+      "player_id": "player_2",
+      "turn": 2
+    },
+    {
+      "action_id": "player_2:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 2
+    },
+    {
+      "action_id": "player_2:enqueue:{\"cards\":[\"nw_base_f135174f__copy_06\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_f135174f__copy_06"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 2
+    },
+    {
+      "action_id": "player_3:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_3",
+      "turn": 2
+    },
+    {
+      "action_id": "player_3:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_3",
+      "turn": 2
+    },
+    {
+      "action_id": "player_3:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_3",
+      "turn": 2
+    },
+    {
+      "action_id": "player_3:enqueue:{\"cards\":[\"nw_base_f135174f__copy_02\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_f135174f__copy_02"
+        ]
+      },
+      "player_id": "player_3",
+      "turn": 2
+    },
+    {
+      "action_id": "player_0:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 3
+    },
+    {
+      "action_id": "player_0:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 3
+    },
+    {
+      "action_id": "player_0:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 3
+    },
+    {
+      "action_id": "player_0:enqueue:{\"cards\":[\"nw_base_782a2d4e__copy_03\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_782a2d4e__copy_03"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 3
+    },
+    {
+      "action_id": "player_1:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_1",
+      "turn": 3
+    },
+    {
+      "action_id": "player_1:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_1",
+      "turn": 3
+    },
+    {
+      "action_id": "player_1:modify_deterrent:{\"card\":\"nw_base_524da209__copy_03\",\"to_slot\":0}",
+      "action_type": "modify_deterrent",
+      "payload": {
+        "card": "nw_base_524da209__copy_03",
+        "to_slot": 0
+      },
+      "player_id": "player_1",
+      "turn": 3
+    },
+    {
+      "action_id": "player_1:enqueue:{\"cards\":[\"nw_base_f135174f__copy_16\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_f135174f__copy_16"
+        ]
+      },
+      "player_id": "player_1",
+      "turn": 3
+    },
+    {
+      "action_id": "player_2:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 3
+    },
+    {
+      "action_id": "player_2:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 3
+    },
+    {
+      "action_id": "player_2:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 3
+    },
+    {
+      "action_id": "player_2:enqueue:{\"cards\":[\"nw_base_782a2d4e__copy_01\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_782a2d4e__copy_01"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 3
+    },
+    {
+      "action_id": "player_3:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_3",
+      "turn": 3
+    },
+    {
+      "action_id": "player_3:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_3",
+      "turn": 3
+    },
+    {
+      "action_id": "player_3:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_3",
+      "turn": 3
+    },
+    {
+      "action_id": "player_3:enqueue:{\"cards\":[\"nw_base_17d18cbc__copy_04\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_17d18cbc__copy_04"
+        ]
+      },
+      "player_id": "player_3",
+      "turn": 3
+    },
+    {
+      "action_id": "player_0:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 4
+    },
+    {
+      "action_id": "player_0:secret_target:{\"card\":\"nw_base_b6794c74\",\"target\":\"player_2\"}",
+      "action_type": "secret_target",
+      "payload": {
+        "card": "nw_base_b6794c74",
+        "target": "player_2"
+      },
+      "player_id": "player_0",
+      "turn": 4
+    },
+    {
+      "action_id": "player_0:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 4
+    },
+    {
+      "action_id": "player_0:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 4
+    },
+    {
+      "action_id": "player_0:enqueue:{\"cards\":[\"nw_base_f135174f__copy_11\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_f135174f__copy_11"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 4
+    },
+    {
+      "action_id": "player_0:target:{\"delivery\":\"nw_base_782a2d4e__copy_05\",\"target\":\"player_3\"}",
+      "action_type": "target",
+      "payload": {
+        "delivery": "nw_base_782a2d4e__copy_05",
+        "target": "player_3"
+      },
+      "player_id": "player_0",
+      "turn": 4
+    },
+    {
+      "action_id": "player_3:intercept",
+      "action_type": "intercept",
+      "payload": {},
+      "player_id": "player_3",
+      "turn": 4
+    },
+    {
+      "action_id": "player_1:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_1",
+      "turn": 4
+    },
+    {
+      "action_id": "player_1:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_1",
+      "turn": 4
+    },
+    {
+      "action_id": "player_1:modify_deterrent:{\"card\":\"nw_base_b3a2b1d5__copy_10\",\"to_slot\":1}",
+      "action_type": "modify_deterrent",
+      "payload": {
+        "card": "nw_base_b3a2b1d5__copy_10",
+        "to_slot": 1
+      },
+      "player_id": "player_1",
+      "turn": 4
+    },
+    {
+      "action_id": "player_1:enqueue:{\"cards\":[\"nw_base_63d00850__copy_01\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_63d00850__copy_01"
+        ]
+      },
+      "player_id": "player_1",
+      "turn": 4
+    },
+    {
+      "action_id": "player_2:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 4
+    },
+    {
+      "action_id": "player_2:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 4
+    },
+    {
+      "action_id": "player_2:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 4
+    },
+    {
+      "action_id": "player_2:enqueue:{\"cards\":[\"nw_base_f135174f__copy_03\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_f135174f__copy_03"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 4
+    },
+    {
+      "action_id": "player_3:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_3",
+      "turn": 4
+    },
+    {
+      "action_id": "player_3:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_3",
+      "turn": 4
+    },
+    {
+      "action_id": "player_3:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_3",
+      "turn": 4
+    },
+    {
+      "action_id": "player_3:enqueue:{\"cards\":[\"nw_base_63d00850__copy_04\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_63d00850__copy_04"
+        ]
+      },
+      "player_id": "player_3",
+      "turn": 4
+    },
+    {
+      "action_id": "player_3:target:{\"delivery\":\"nw_base_817ae772__copy_04\",\"target\":\"player_1\"}",
+      "action_type": "target",
+      "payload": {
+        "delivery": "nw_base_817ae772__copy_04",
+        "target": "player_1"
+      },
+      "player_id": "player_3",
+      "turn": 4
+    },
+    {
+      "action_id": "player_1:intercept",
+      "action_type": "intercept",
+      "payload": {},
+      "player_id": "player_1",
+      "turn": 4
+    },
+    {
+      "action_id": "player_0:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 5
+    },
+    {
+      "action_id": "player_0:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 5
+    },
+    {
+      "action_id": "player_0:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 5
+    },
+    {
+      "action_id": "player_0:enqueue:{\"cards\":[\"nw_base_782a2d4e__copy_04\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_782a2d4e__copy_04"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 5
+    },
+    {
+      "action_id": "player_1:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_1",
+      "turn": 5
+    },
+    {
+      "action_id": "player_1:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_1",
+      "turn": 5
+    },
+    {
+      "action_id": "player_1:modify_deterrent:{\"from_slot\":0}",
+      "action_type": "modify_deterrent",
+      "payload": {
+        "from_slot": 0
+      },
+      "player_id": "player_1",
+      "turn": 5
+    },
+    {
+      "action_id": "player_1:enqueue:{\"cards\":[\"nw_base_524da209__copy_02\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_524da209__copy_02"
+        ]
+      },
+      "player_id": "player_1",
+      "turn": 5
+    },
+    {
+      "action_id": "player_2:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 5
+    },
+    {
+      "action_id": "player_2:secret_target:{\"card\":\"nw_base_25ca25d8\",\"target\":\"player_0\"}",
+      "action_type": "secret_target",
+      "payload": {
+        "card": "nw_base_25ca25d8",
+        "target": "player_0"
+      },
+      "player_id": "player_2",
+      "turn": 5
+    },
+    {
+      "action_id": "player_2:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 5
+    },
+    {
+      "action_id": "player_2:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 5
+    },
+    {
+      "action_id": "player_2:enqueue:{\"cards\":[\"nw_base_f135174f__copy_17\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_f135174f__copy_17"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 5
+    },
+    {
+      "action_id": "player_3:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_3",
+      "turn": 5
+    },
+    {
+      "action_id": "player_3:secret_target:{\"card\":\"nw_base_9c57e2d6\",\"target\":\"player_2\"}",
+      "action_type": "secret_target",
+      "payload": {
+        "card": "nw_base_9c57e2d6",
+        "target": "player_2"
+      },
+      "player_id": "player_3",
+      "turn": 5
+    },
+    {
+      "action_id": "player_3:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_3",
+      "turn": 5
+    },
+    {
+      "action_id": "player_3:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_3",
+      "turn": 5
+    },
+    {
+      "action_id": "player_3:enqueue:{\"cards\":[\"nw_base_782a2d4e__copy_08\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_782a2d4e__copy_08"
+        ]
+      },
+      "player_id": "player_3",
+      "turn": 5
+    },
+    {
+      "action_id": "player_0:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 6
+    },
+    {
+      "action_id": "player_0:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 6
+    },
+    {
+      "action_id": "player_0:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 6
+    },
+    {
+      "action_id": "player_0:enqueue:{\"cards\":[\"nw_base_63d00850__copy_03\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_63d00850__copy_03"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 6
+    },
+    {
+      "action_id": "player_1:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_1",
+      "turn": 6
+    },
+    {
+      "action_id": "player_1:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_1",
+      "turn": 6
+    },
+    {
+      "action_id": "player_1:modify_deterrent:{\"card\":\"nw_base_63d00850__copy_07\",\"to_slot\":0}",
+      "action_type": "modify_deterrent",
+      "payload": {
+        "card": "nw_base_63d00850__copy_07",
+        "to_slot": 0
+      },
+      "player_id": "player_1",
+      "turn": 6
+    },
+    {
+      "action_id": "player_1:enqueue:{\"cards\":[\"nw_base_63d00850__copy_08\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_63d00850__copy_08"
+        ]
+      },
+      "player_id": "player_1",
+      "turn": 6
+    },
+    {
+      "action_id": "player_2:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 6
+    },
+    {
+      "action_id": "player_2:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 6
+    },
+    {
+      "action_id": "player_2:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 6
+    },
+    {
+      "action_id": "player_2:enqueue:{\"cards\":[\"nw_base_817ae772__copy_01\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_817ae772__copy_01"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 6
+    },
+    {
+      "action_id": "player_3:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_3",
+      "turn": 6
+    },
+    {
+      "action_id": "player_3:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_3",
+      "turn": 6
+    },
+    {
+      "action_id": "player_3:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_3",
+      "turn": 6
+    },
+    {
+      "action_id": "player_3:enqueue:{\"cards\":[\"nw_base_f135174f__copy_14\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_f135174f__copy_14"
+        ]
+      },
+      "player_id": "player_3",
+      "turn": 6
+    },
+    {
+      "action_id": "player_3:target:{\"delivery\":\"nw_base_17d18cbc__copy_04\",\"target\":\"player_1\"}",
+      "action_type": "target",
+      "payload": {
+        "delivery": "nw_base_17d18cbc__copy_04",
+        "target": "player_1"
+      },
+      "player_id": "player_3",
+      "turn": 6
+    },
+    {
+      "action_id": "player_1:intercept",
+      "action_type": "intercept",
+      "payload": {},
+      "player_id": "player_1",
+      "turn": 6
+    },
+    {
+      "action_id": "player_1:final_strike_target:{\"target\":\"player_3\"}",
+      "action_type": "final_strike_target",
+      "payload": {
+        "target": "player_3"
+      },
+      "player_id": "player_1",
+      "turn": 6
+    },
+    {
+      "action_id": "player_3:intercept",
+      "action_type": "intercept",
+      "payload": {},
+      "player_id": "player_3",
+      "turn": 6
+    },
+    {
+      "action_id": "player_0:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 7
+    },
+    {
+      "action_id": "player_0:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 7
+    },
+    {
+      "action_id": "player_0:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 7
+    },
+    {
+      "action_id": "player_0:enqueue:{\"cards\":[\"nw_base_524da209__copy_01\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_524da209__copy_01"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 7
+    },
+    {
+      "action_id": "player_2:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 7
+    },
+    {
+      "action_id": "player_2:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 7
+    },
+    {
+      "action_id": "player_2:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 7
+    },
+    {
+      "action_id": "player_2:enqueue:{\"cards\":[\"nw_base_f135174f__copy_18\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_f135174f__copy_18"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 7
+    },
+    {
+      "action_id": "player_0:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 8
+    },
+    {
+      "action_id": "player_0:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 8
+    },
+    {
+      "action_id": "player_0:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 8
+    },
+    {
+      "action_id": "player_0:enqueue:{\"cards\":[\"nw_base_f135174f__copy_09\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_f135174f__copy_09"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 8
+    },
+    {
+      "action_id": "player_2:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 8
+    },
+    {
+      "action_id": "player_2:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 8
+    },
+    {
+      "action_id": "player_2:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 8
+    },
+    {
+      "action_id": "player_2:enqueue:{\"cards\":[\"nw_base_635d7044\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_635d7044"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 8
+    },
+    {
+      "action_id": "player_0:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 9
+    },
+    {
+      "action_id": "player_0:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 9
+    },
+    {
+      "action_id": "player_0:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 9
+    },
+    {
+      "action_id": "player_0:enqueue:{\"cards\":[\"nw_base_17d18cbc__copy_02\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_17d18cbc__copy_02"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 9
+    },
+    {
+      "action_id": "player_2:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 9
+    },
+    {
+      "action_id": "player_2:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 9
+    },
+    {
+      "action_id": "player_2:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 9
+    },
+    {
+      "action_id": "player_2:enqueue:{\"cards\":[\"nw_base_782a2d4e__copy_06\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_782a2d4e__copy_06"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 9
+    },
+    {
+      "action_id": "player_0:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 10
+    },
+    {
+      "action_id": "player_0:secret_target:{\"card\":\"nw_base_73c4d9d1\",\"target\":\"player_2\"}",
+      "action_type": "secret_target",
+      "payload": {
+        "card": "nw_base_73c4d9d1",
+        "target": "player_2"
+      },
+      "player_id": "player_0",
+      "turn": 10
+    },
+    {
+      "action_id": "player_0:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 10
+    },
+    {
+      "action_id": "player_0:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 10
+    },
+    {
+      "action_id": "player_0:enqueue:{\"cards\":[\"nw_base_5baf79b7__copy_02\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_5baf79b7__copy_02"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 10
+    },
+    {
+      "action_id": "player_2:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 10
+    },
+    {
+      "action_id": "player_2:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 10
+    },
+    {
+      "action_id": "player_2:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 10
+    },
+    {
+      "action_id": "player_2:enqueue:{\"cards\":[\"nw_base_63d00850__copy_02\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_63d00850__copy_02"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 10
+    },
+    {
+      "action_id": "player_0:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 11
+    },
+    {
+      "action_id": "player_0:secret_target:{\"card\":\"nw_base_f22d41be\",\"target\":\"player_2\"}",
+      "action_type": "secret_target",
+      "payload": {
+        "card": "nw_base_f22d41be",
+        "target": "player_2"
+      },
+      "player_id": "player_0",
+      "turn": 11
+    },
+    {
+      "action_id": "player_0:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 11
+    },
+    {
+      "action_id": "player_0:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 11
+    },
+    {
+      "action_id": "player_0:enqueue:{\"cards\":[\"nw_base_817ae772__copy_07\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_817ae772__copy_07"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 11
+    },
+    {
+      "action_id": "player_2:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 11
+    },
+    {
+      "action_id": "player_2:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 11
+    },
+    {
+      "action_id": "player_2:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 11
+    },
+    {
+      "action_id": "player_2:enqueue:{\"cards\":[\"nw_base_f135174f__copy_10\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_f135174f__copy_10"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 11
+    },
+    {
+      "action_id": "player_0:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 12
+    },
+    {
+      "action_id": "player_0:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 12
+    },
+    {
+      "action_id": "player_0:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 12
+    },
+    {
+      "action_id": "player_0:enqueue:{\"cards\":[\"nw_base_f135174f__copy_12\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_f135174f__copy_12"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 12
+    },
+    {
+      "action_id": "player_2:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 12
+    },
+    {
+      "action_id": "player_2:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 12
+    },
+    {
+      "action_id": "player_2:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 12
+    },
+    {
+      "action_id": "player_2:enqueue:{\"cards\":[\"nw_base_e81625f2__copy_02\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_e81625f2__copy_02"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 12
+    },
+    {
+      "action_id": "player_0:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 13
+    },
+    {
+      "action_id": "player_0:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 13
+    },
+    {
+      "action_id": "player_0:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 13
+    },
+    {
+      "action_id": "player_0:enqueue:{\"cards\":[\"nw_base_817ae772__copy_03\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_817ae772__copy_03"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 13
+    },
+    {
+      "action_id": "player_2:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 13
+    },
+    {
+      "action_id": "player_2:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 13
+    },
+    {
+      "action_id": "player_2:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 13
+    },
+    {
+      "action_id": "player_2:enqueue:{\"cards\":[\"nw_base_b0c93572\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_b0c93572"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 13
+    },
+    {
+      "action_id": "player_0:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 14
+    },
+    {
+      "action_id": "player_0:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 14
+    },
+    {
+      "action_id": "player_0:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 14
+    },
+    {
+      "action_id": "player_0:enqueue:{\"cards\":[\"nw_base_5baf79b7__copy_04\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_5baf79b7__copy_04"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 14
+    },
+    {
+      "action_id": "player_2:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 14
+    },
+    {
+      "action_id": "player_2:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 14
+    },
+    {
+      "action_id": "player_2:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 14
+    },
+    {
+      "action_id": "player_2:enqueue:{\"cards\":[\"nw_base_17d18cbc__copy_06\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_17d18cbc__copy_06"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 14
+    },
+    {
+      "action_id": "player_0:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 15
+    },
+    {
+      "action_id": "player_0:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 15
+    },
+    {
+      "action_id": "player_0:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 15
+    },
+    {
+      "action_id": "player_0:enqueue:{\"cards\":[\"nw_base_817ae772__copy_09\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_817ae772__copy_09"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 15
+    },
+    {
+      "action_id": "player_2:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 15
+    },
+    {
+      "action_id": "player_2:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 15
+    },
+    {
+      "action_id": "player_2:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 15
+    },
+    {
+      "action_id": "player_2:enqueue:{\"cards\":[\"nw_base_782a2d4e__copy_02\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_782a2d4e__copy_02"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 15
+    },
+    {
+      "action_id": "player_0:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 16
+    },
+    {
+      "action_id": "player_0:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 16
+    },
+    {
+      "action_id": "player_0:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 16
+    },
+    {
+      "action_id": "player_0:enqueue:{\"cards\":[\"nw_base_63d00850__copy_10\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_63d00850__copy_10"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 16
+    },
+    {
+      "action_id": "player_2:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 16
+    },
+    {
+      "action_id": "player_2:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 16
+    },
+    {
+      "action_id": "player_2:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 16
+    },
+    {
+      "action_id": "player_2:enqueue:{\"cards\":[\"nw_base_f135174f__copy_07\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_f135174f__copy_07"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 16
+    },
+    {
+      "action_id": "player_0:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 17
+    },
+    {
+      "action_id": "player_0:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 17
+    },
+    {
+      "action_id": "player_0:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 17
+    },
+    {
+      "action_id": "player_0:enqueue:{\"cards\":[\"nw_base_817ae772__copy_06\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_817ae772__copy_06"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 17
+    },
+    {
+      "action_id": "player_2:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 17
+    },
+    {
+      "action_id": "player_2:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 17
+    },
+    {
+      "action_id": "player_2:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 17
+    },
+    {
+      "action_id": "player_2:enqueue:{\"cards\":[\"nw_base_b3a2b1d5__copy_11\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_b3a2b1d5__copy_11"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 17
+    },
+    {
+      "action_id": "player_0:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 18
+    },
+    {
+      "action_id": "player_0:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 18
+    },
+    {
+      "action_id": "player_0:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 18
+    },
+    {
+      "action_id": "player_0:enqueue:{\"cards\":[\"nw_base_63d00850__copy_09\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_63d00850__copy_09"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 18
+    },
+    {
+      "action_id": "player_2:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 18
+    },
+    {
+      "action_id": "player_2:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 18
+    },
+    {
+      "action_id": "player_2:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 18
+    },
+    {
+      "action_id": "player_2:enqueue:{\"cards\":[\"nw_base_63d00850__copy_06\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_63d00850__copy_06"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 18
+    },
+    {
+      "action_id": "player_0:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 19
+    },
+    {
+      "action_id": "player_0:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 19
+    },
+    {
+      "action_id": "player_0:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 19
+    },
+    {
+      "action_id": "player_0:enqueue:{\"cards\":[\"nw_base_782a2d4e__copy_07\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_782a2d4e__copy_07"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 19
+    },
+    {
+      "action_id": "player_2:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 19
+    },
+    {
+      "action_id": "player_2:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 19
+    },
+    {
+      "action_id": "player_2:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 19
+    },
+    {
+      "action_id": "player_2:enqueue:{\"cards\":[\"nw_base_17d18cbc__copy_06\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_17d18cbc__copy_06"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 19
+    },
+    {
+      "action_id": "player_0:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 20
+    },
+    {
+      "action_id": "player_0:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 20
+    },
+    {
+      "action_id": "player_0:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 20
+    },
+    {
+      "action_id": "player_0:enqueue:{\"cards\":[\"nw_base_f135174f__copy_04\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_f135174f__copy_04"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 20
+    },
+    {
+      "action_id": "player_2:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 20
+    },
+    {
+      "action_id": "player_2:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 20
+    },
+    {
+      "action_id": "player_2:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 20
+    },
+    {
+      "action_id": "player_2:enqueue:{\"cards\":[\"nw_base_5baf79b7__copy_04\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_5baf79b7__copy_04"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 20
+    },
+    {
+      "action_id": "player_0:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 21
+    },
+    {
+      "action_id": "player_0:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 21
+    },
+    {
+      "action_id": "player_0:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 21
+    },
+    {
+      "action_id": "player_0:enqueue:{\"cards\":[\"nw_base_17d18cbc__copy_03\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_17d18cbc__copy_03"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 21
+    },
+    {
+      "action_id": "player_2:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 21
+    },
+    {
+      "action_id": "player_2:secret_target:{\"card\":\"nw_base_f22d41be\",\"target\":\"player_0\"}",
+      "action_type": "secret_target",
+      "payload": {
+        "card": "nw_base_f22d41be",
+        "target": "player_0"
+      },
+      "player_id": "player_2",
+      "turn": 21
+    },
+    {
+      "action_id": "player_2:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 21
+    },
+    {
+      "action_id": "player_2:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 21
+    },
+    {
+      "action_id": "player_2:enqueue:{\"cards\":[\"nw_base_63d00850__copy_04\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_63d00850__copy_04"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 21
+    },
+    {
+      "action_id": "player_0:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 22
+    },
+    {
+      "action_id": "player_0:secret_target:{\"card\":\"nw_base_b6794c74\",\"target\":\"player_2\"}",
+      "action_type": "secret_target",
+      "payload": {
+        "card": "nw_base_b6794c74",
+        "target": "player_2"
+      },
+      "player_id": "player_0",
+      "turn": 22
+    },
+    {
+      "action_id": "player_0:secret_target:{\"card\":\"nw_base_73c4d9d1\",\"target\":\"player_2\"}",
+      "action_type": "secret_target",
+      "payload": {
+        "card": "nw_base_73c4d9d1",
+        "target": "player_2"
+      },
+      "player_id": "player_0",
+      "turn": 22
+    },
+    {
+      "action_id": "player_0:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 22
+    },
+    {
+      "action_id": "player_0:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 22
+    },
+    {
+      "action_id": "player_0:enqueue:{\"cards\":[\"nw_base_817ae772__copy_03\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_817ae772__copy_03"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 22
+    },
+    {
+      "action_id": "player_2:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 22
+    },
+    {
+      "action_id": "player_2:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 22
+    },
+    {
+      "action_id": "player_2:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 22
+    },
+    {
+      "action_id": "player_2:enqueue:{\"cards\":[\"nw_base_63d00850__copy_01\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_63d00850__copy_01"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 22
+    },
+    {
+      "action_id": "player_0:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 23
+    },
+    {
+      "action_id": "player_0:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 23
+    },
+    {
+      "action_id": "player_0:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 23
+    },
+    {
+      "action_id": "player_0:enqueue:{\"cards\":[\"nw_base_f135174f__copy_13\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_f135174f__copy_13"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 23
+    },
+    {
+      "action_id": "player_2:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 23
+    },
+    {
+      "action_id": "player_2:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 23
+    },
+    {
+      "action_id": "player_2:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 23
+    },
+    {
+      "action_id": "player_2:enqueue:{\"cards\":[\"nw_base_b3a2b1d5__copy_06\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_b3a2b1d5__copy_06"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 23
+    },
+    {
+      "action_id": "player_0:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 24
+    },
+    {
+      "action_id": "player_0:secret_target:{\"card\":\"nw_base_1e921213\",\"target\":\"player_2\"}",
+      "action_type": "secret_target",
+      "payload": {
+        "card": "nw_base_1e921213",
+        "target": "player_2"
+      },
+      "player_id": "player_0",
+      "turn": 24
+    },
+    {
+      "action_id": "player_0:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 24
+    },
+    {
+      "action_id": "player_0:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 24
+    },
+    {
+      "action_id": "player_0:enqueue:{\"cards\":[\"nw_base_b3a2b1d5__copy_07\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_b3a2b1d5__copy_07"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 24
+    },
+    {
+      "action_id": "player_2:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 24
+    },
+    {
+      "action_id": "player_2:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 24
+    },
+    {
+      "action_id": "player_2:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 24
+    },
+    {
+      "action_id": "player_2:enqueue:{\"cards\":[\"nw_base_782a2d4e__copy_09\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_782a2d4e__copy_09"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 24
+    },
+    {
+      "action_id": "player_0:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 25
+    },
+    {
+      "action_id": "player_0:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 25
+    },
+    {
+      "action_id": "player_0:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 25
+    },
+    {
+      "action_id": "player_0:enqueue:{\"cards\":[\"nw_base_f135174f__copy_02\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_f135174f__copy_02"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 25
+    },
+    {
+      "action_id": "player_2:draw",
+      "action_type": "draw",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 25
+    },
+    {
+      "action_id": "player_2:secret_target:{\"card\":\"nw_base_cef59053\",\"target\":\"player_0\"}",
+      "action_type": "secret_target",
+      "payload": {
+        "card": "nw_base_cef59053",
+        "target": "player_0"
+      },
+      "player_id": "player_2",
+      "turn": 25
+    },
+    {
+      "action_id": "player_2:advance",
+      "action_type": "advance",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 25
+    },
+    {
+      "action_id": "player_2:modify_deterrent",
+      "action_type": "modify_deterrent",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 25
+    },
+    {
+      "action_id": "player_2:enqueue:{\"cards\":[\"nw_base_b3a2b1d5__copy_05\"]}",
+      "action_type": "enqueue",
+      "payload": {
+        "cards": [
+          "nw_base_b3a2b1d5__copy_05"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 25
+    }
+  ],
+  "active_variant": {
+    "anti_missile_turn_jump": true,
+    "expansion_sets": [],
+    "hand_draw_target": 10,
+    "initial_face_down_cards": 2,
+    "population_deck_size": 40,
+    "press_enabled": false,
+    "randomizer": "base_two_d10_fallout_chart",
+    "simultaneous_orders": false,
+    "special_powers_enabled": false,
+    "trading_enabled": false,
+    "variant_id": "base_later_two_d10"
+  },
+  "agent": "decision_heuristic",
+  "eliminations": [
+    "player_1",
+    "player_3"
+  ],
+  "events": [
+    {
+      "card_id": "nw_base_59743030",
+      "event_type": "secret_triggered",
+      "payload": {
+        "target": "player_1"
+      },
+      "player_id": "player_0",
+      "turn": 1
+    },
+    {
+      "card_id": "nw_base_59743030",
+      "event_type": "secret_population_removed",
+      "payload": {
+        "loss": 10
+      },
+      "player_id": "player_1",
+      "turn": 1
+    },
+    {
+      "card_id": "nw_base_5baf79b7__copy_03",
+      "event_type": "warhead_discarded",
+      "payload": {
+        "previous": null,
+        "reason": "no_delivery"
+      },
+      "player_id": "player_0",
+      "turn": 1
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_782a2d4e__copy_05"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 1
+    },
+    {
+      "card_id": "nw_base_cef59053",
+      "event_type": "secret_triggered",
+      "payload": {
+        "target": "player_3"
+      },
+      "player_id": "player_1",
+      "turn": 1
+    },
+    {
+      "card_id": "nw_base_cef59053",
+      "event_type": "secret_population_damaged",
+      "payload": {
+        "loss": 10
+      },
+      "player_id": "player_3",
+      "turn": 1
+    },
+    {
+      "card_id": "nw_base_5df64089",
+      "event_type": "secret_triggered",
+      "payload": {
+        "target": "player_2"
+      },
+      "player_id": "player_1",
+      "turn": 1
+    },
+    {
+      "card_id": "nw_base_5df64089",
+      "event_type": "secret_population_stolen",
+      "payload": {
+        "migrated": 5,
+        "target": "player_2"
+      },
+      "player_id": "player_1",
+      "turn": 1
+    },
+    {
+      "card_id": "nw_base_a82055e8",
+      "event_type": "secret_triggered",
+      "payload": {
+        "target": "player_3"
+      },
+      "player_id": "player_1",
+      "turn": 1
+    },
+    {
+      "card_id": "nw_base_a82055e8",
+      "event_type": "secret_population_stolen",
+      "payload": {
+        "migrated": 2,
+        "target": "player_3"
+      },
+      "player_id": "player_1",
+      "turn": 1
+    },
+    {
+      "card_id": "nw_base_9c4a685d",
+      "event_type": "secret_triggered",
+      "payload": {
+        "target": "player_0"
+      },
+      "player_id": "player_1",
+      "turn": 1
+    },
+    {
+      "card_id": "nw_base_9c4a685d",
+      "event_type": "secret_population_stolen",
+      "payload": {
+        "migrated": 2,
+        "target": "player_0"
+      },
+      "player_id": "player_1",
+      "turn": 1
+    },
+    {
+      "card_id": "nw_base_782a2d4e__copy_09",
+      "event_type": "delivery_ready",
+      "payload": {
+        "capacity": 1,
+        "previous": null
+      },
+      "player_id": "player_1",
+      "turn": 1
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_17d18cbc__copy_01"
+        ]
+      },
+      "player_id": "player_1",
+      "turn": 1
+    },
+    {
+      "card_id": "nw_base_4f7e97eb",
+      "event_type": "secret_triggered",
+      "payload": {
+        "target": "player_1"
+      },
+      "player_id": "player_2",
+      "turn": 1
+    },
+    {
+      "card_id": "nw_base_4f7e97eb",
+      "event_type": "secret_population_stolen",
+      "payload": {
+        "migrated": 2,
+        "target": "player_1"
+      },
+      "player_id": "player_2",
+      "turn": 1
+    },
+    {
+      "card_id": "nw_base_f135174f__copy_13",
+      "event_type": "warhead_discarded",
+      "payload": {
+        "previous": null,
+        "reason": "no_delivery"
+      },
+      "player_id": "player_2",
+      "turn": 1
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_817ae772__copy_08"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 1
+    },
+    {
+      "card_id": "nw_base_1e921213",
+      "event_type": "secret_triggered",
+      "payload": {
+        "target": "player_1"
+      },
+      "player_id": "player_3",
+      "turn": 1
+    },
+    {
+      "card_id": "nw_base_1e921213",
+      "event_type": "secret_turns_lost",
+      "payload": {
+        "target": "player_1",
+        "turns": 1
+      },
+      "player_id": "player_3",
+      "turn": 1
+    },
+    {
+      "card_id": "nw_base_bdab30a4",
+      "event_type": "secret_triggered",
+      "payload": {
+        "target": "player_1"
+      },
+      "player_id": "player_3",
+      "turn": 1
+    },
+    {
+      "card_id": "nw_base_bdab30a4",
+      "event_type": "secret_population_damaged",
+      "payload": {
+        "loss": 25
+      },
+      "player_id": "player_1",
+      "turn": 1
+    },
+    {
+      "card_id": "nw_base_b3a2b1d5__copy_04",
+      "event_type": "propaganda_ready",
+      "payload": {
+        "previous": null
+      },
+      "player_id": "player_3",
+      "turn": 1
+    },
+    {
+      "card_id": "nw_base_b3a2b1d5__copy_04",
+      "event_type": "propaganda_effect",
+      "payload": {
+        "migrated": 5,
+        "target": "player_2"
+      },
+      "player_id": "player_3",
+      "turn": 1
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_817ae772__copy_04"
+        ]
+      },
+      "player_id": "player_3",
+      "turn": 1
+    },
+    {
+      "card_id": "nw_base_524da209__copy_01",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 2
+    },
+    {
+      "card_id": "nw_base_f135174f__copy_08",
+      "event_type": "warhead_discarded",
+      "payload": {
+        "previous": null,
+        "reason": "no_delivery"
+      },
+      "player_id": "player_0",
+      "turn": 2
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_f135174f__copy_04"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 2
+    },
+    {
+      "card_id": "nw_base_f135174f__copy_05",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_1",
+      "turn": 2
+    },
+    {
+      "card_id": "nw_base_17d18cbc__copy_05",
+      "event_type": "delivery_ready",
+      "payload": {
+        "capacity": 50,
+        "previous": null
+      },
+      "player_id": "player_1",
+      "turn": 2
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_f135174f__copy_19"
+        ]
+      },
+      "player_id": "player_1",
+      "turn": 2
+    },
+    {
+      "card_id": "nw_base_88397cd6",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 2
+    },
+    {
+      "card_id": "nw_base_88397cd6",
+      "event_type": "secret_queued",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 2
+    },
+    {
+      "card_id": "nw_base_782a2d4e__copy_01",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 2
+    },
+    {
+      "card_id": "nw_base_88397cd6",
+      "event_type": "secret_triggered",
+      "payload": {
+        "target": "player_1"
+      },
+      "player_id": "player_2",
+      "turn": 2
+    },
+    {
+      "card_id": "nw_base_88397cd6",
+      "event_type": "secret_population_stolen",
+      "payload": {
+        "migrated": 2,
+        "target": "player_1"
+      },
+      "player_id": "player_2",
+      "turn": 2
+    },
+    {
+      "card_id": "nw_base_ce2c2080__copy_04",
+      "event_type": "propaganda_ready",
+      "payload": {
+        "previous": null
+      },
+      "player_id": "player_2",
+      "turn": 2
+    },
+    {
+      "card_id": "nw_base_ce2c2080__copy_04",
+      "event_type": "propaganda_effect",
+      "payload": {
+        "migrated": 10,
+        "target": "player_1"
+      },
+      "player_id": "player_2",
+      "turn": 2
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_f135174f__copy_06"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 2
+    },
+    {
+      "card_id": "nw_base_17d18cbc__copy_04",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_3",
+      "turn": 2
+    },
+    {
+      "card_id": "nw_base_63d00850__copy_05",
+      "event_type": "warhead_discarded",
+      "payload": {
+        "previous": null,
+        "reason": "no_delivery"
+      },
+      "player_id": "player_3",
+      "turn": 2
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_f135174f__copy_02"
+        ]
+      },
+      "player_id": "player_3",
+      "turn": 2
+    },
+    {
+      "card_id": "nw_base_ce2c2080__copy_05",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 3
+    },
+    {
+      "card_id": "nw_base_782a2d4e__copy_05",
+      "event_type": "delivery_ready",
+      "payload": {
+        "capacity": 1,
+        "previous": null
+      },
+      "player_id": "player_0",
+      "turn": 3
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_782a2d4e__copy_03"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 3
+    },
+    {
+      "card_id": "nw_base_63d00850__copy_07",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_1",
+      "turn": 3
+    },
+    {
+      "card_id": "nw_base_17d18cbc__copy_01",
+      "event_type": "delivery_ready",
+      "payload": {
+        "capacity": 50,
+        "previous": null
+      },
+      "player_id": "player_1",
+      "turn": 3
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_f135174f__copy_16"
+        ]
+      },
+      "player_id": "player_1",
+      "turn": 3
+    },
+    {
+      "card_id": "nw_base_f135174f__copy_18",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 3
+    },
+    {
+      "card_id": "nw_base_817ae772__copy_08",
+      "event_type": "delivery_ready",
+      "payload": {
+        "capacity": 1,
+        "previous": null
+      },
+      "player_id": "player_2",
+      "turn": 3
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_782a2d4e__copy_01"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 3
+    },
+    {
+      "card_id": "nw_base_782a2d4e__copy_08",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_3",
+      "turn": 3
+    },
+    {
+      "card_id": "nw_base_817ae772__copy_04",
+      "event_type": "delivery_ready",
+      "payload": {
+        "capacity": 1,
+        "previous": null
+      },
+      "player_id": "player_3",
+      "turn": 3
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_17d18cbc__copy_04"
+        ]
+      },
+      "player_id": "player_3",
+      "turn": 3
+    },
+    {
+      "card_id": "nw_base_b6794c74",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 4
+    },
+    {
+      "card_id": "nw_base_b6794c74",
+      "event_type": "secret_queued",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 4
+    },
+    {
+      "card_id": "nw_base_63d00850__copy_03",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 4
+    },
+    {
+      "card_id": "nw_base_b6794c74",
+      "event_type": "secret_triggered",
+      "payload": {
+        "target": "player_2"
+      },
+      "player_id": "player_0",
+      "turn": 4
+    },
+    {
+      "card_id": "nw_base_b6794c74",
+      "event_type": "secret_turns_lost",
+      "payload": {
+        "target": "player_2",
+        "turns": 1
+      },
+      "player_id": "player_0",
+      "turn": 4
+    },
+    {
+      "card_id": "nw_base_f135174f__copy_04",
+      "event_type": "warhead_loaded",
+      "payload": {
+        "delivery": "nw_base_782a2d4e__copy_05",
+        "previous": null
+      },
+      "player_id": "player_0",
+      "turn": 4
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_f135174f__copy_11"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 4
+    },
+    {
+      "card_id": "nw_base_782a2d4e__copy_05",
+      "event_type": "target_declared",
+      "payload": {
+        "target": "player_3"
+      },
+      "player_id": "player_0",
+      "turn": 4
+    },
+    {
+      "card_id": "nw_base_782a2d4e__copy_05",
+      "event_type": "launch_declared",
+      "payload": {
+        "target": "player_3",
+        "warheads": [
+          "nw_base_f135174f__copy_04"
+        ],
+        "yield": 10
+      },
+      "player_id": "player_0",
+      "turn": 4
+    },
+    {
+      "card_id": null,
+      "event_type": "spinner_result",
+      "payload": {
+        "effect": "fireball",
+        "multiplier": 1,
+        "randomizer": "base_two_d10_fallout_chart",
+        "raw_result": 31,
+        "source_table_id": "base_two_d10_fallout_chart",
+        "target_adjustment": 1
+      },
+      "player_id": "player_0",
+      "turn": 4
+    },
+    {
+      "card_id": null,
+      "event_type": "warhead_detonated",
+      "payload": {
+        "loss": 11,
+        "target": "player_3",
+        "yield": 11
+      },
+      "player_id": "player_0",
+      "turn": 4
+    },
+    {
+      "card_id": "nw_base_b3a2b1d5__copy_10",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_1",
+      "turn": 4
+    },
+    {
+      "card_id": "nw_base_f135174f__copy_19",
+      "event_type": "warhead_loaded",
+      "payload": {
+        "delivery": "nw_base_17d18cbc__copy_01",
+        "previous": null
+      },
+      "player_id": "player_1",
+      "turn": 4
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_63d00850__copy_01"
+        ]
+      },
+      "player_id": "player_1",
+      "turn": 4
+    },
+    {
+      "card_id": "nw_base_b3a2b1d5__copy_06",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 4
+    },
+    {
+      "card_id": "nw_base_f135174f__copy_06",
+      "event_type": "warhead_loaded",
+      "payload": {
+        "delivery": "nw_base_817ae772__copy_08",
+        "previous": null
+      },
+      "player_id": "player_2",
+      "turn": 4
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_f135174f__copy_03"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 4
+    },
+    {
+      "card_id": "nw_base_e81625f2__copy_01",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_3",
+      "turn": 4
+    },
+    {
+      "card_id": "nw_base_f135174f__copy_02",
+      "event_type": "warhead_loaded",
+      "payload": {
+        "delivery": "nw_base_817ae772__copy_04",
+        "previous": null
+      },
+      "player_id": "player_3",
+      "turn": 4
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_63d00850__copy_04"
+        ]
+      },
+      "player_id": "player_3",
+      "turn": 4
+    },
+    {
+      "card_id": "nw_base_817ae772__copy_04",
+      "event_type": "target_declared",
+      "payload": {
+        "target": "player_1"
+      },
+      "player_id": "player_3",
+      "turn": 4
+    },
+    {
+      "card_id": "nw_base_817ae772__copy_04",
+      "event_type": "launch_declared",
+      "payload": {
+        "target": "player_1",
+        "warheads": [
+          "nw_base_f135174f__copy_02"
+        ],
+        "yield": 10
+      },
+      "player_id": "player_3",
+      "turn": 4
+    },
+    {
+      "card_id": null,
+      "event_type": "spinner_result",
+      "payload": {
+        "effect": "fallout_10m",
+        "multiplier": 1,
+        "randomizer": "base_two_d10_fallout_chart",
+        "raw_result": 83,
+        "source_table_id": "base_two_d10_fallout_chart",
+        "target_adjustment": 10
+      },
+      "player_id": "player_3",
+      "turn": 4
+    },
+    {
+      "card_id": null,
+      "event_type": "warhead_detonated",
+      "payload": {
+        "loss": 20,
+        "target": "player_1",
+        "yield": 20
+      },
+      "player_id": "player_3",
+      "turn": 4
+    },
+    {
+      "card_id": "nw_base_17d18cbc__copy_02",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 5
+    },
+    {
+      "card_id": "nw_base_782a2d4e__copy_03",
+      "event_type": "delivery_ready",
+      "payload": {
+        "capacity": 1,
+        "previous": null
+      },
+      "player_id": "player_0",
+      "turn": 5
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_782a2d4e__copy_04"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 5
+    },
+    {
+      "card_id": "nw_base_f135174f__copy_15",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_1",
+      "turn": 5
+    },
+    {
+      "card_id": "nw_base_f135174f__copy_16",
+      "event_type": "warhead_loaded",
+      "payload": {
+        "delivery": "nw_base_17d18cbc__copy_01",
+        "previous": null
+      },
+      "player_id": "player_1",
+      "turn": 5
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_524da209__copy_02"
+        ]
+      },
+      "player_id": "player_1",
+      "turn": 5
+    },
+    {
+      "card_id": "nw_base_25ca25d8",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 5
+    },
+    {
+      "card_id": "nw_base_25ca25d8",
+      "event_type": "secret_queued",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 5
+    },
+    {
+      "card_id": "nw_base_b3a2b1d5__copy_05",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 5
+    },
+    {
+      "card_id": "nw_base_25ca25d8",
+      "event_type": "secret_triggered",
+      "payload": {
+        "target": "player_0"
+      },
+      "player_id": "player_2",
+      "turn": 5
+    },
+    {
+      "card_id": "nw_base_25ca25d8",
+      "event_type": "secret_turns_lost",
+      "payload": {
+        "target": "player_0",
+        "turns": 1
+      },
+      "player_id": "player_2",
+      "turn": 5
+    },
+    {
+      "card_id": "nw_base_782a2d4e__copy_01",
+      "event_type": "delivery_ready",
+      "payload": {
+        "capacity": 1,
+        "previous": null
+      },
+      "player_id": "player_2",
+      "turn": 5
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_f135174f__copy_17"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 5
+    },
+    {
+      "card_id": "nw_base_9c57e2d6",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_3",
+      "turn": 5
+    },
+    {
+      "card_id": "nw_base_9c57e2d6",
+      "event_type": "secret_queued",
+      "payload": {},
+      "player_id": "player_3",
+      "turn": 5
+    },
+    {
+      "card_id": "nw_base_817ae772__copy_02",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_3",
+      "turn": 5
+    },
+    {
+      "card_id": "nw_base_9c57e2d6",
+      "event_type": "secret_triggered",
+      "payload": {
+        "target": "player_2"
+      },
+      "player_id": "player_3",
+      "turn": 5
+    },
+    {
+      "card_id": "nw_base_9c57e2d6",
+      "event_type": "secret_population_damaged",
+      "payload": {
+        "loss": 10
+      },
+      "player_id": "player_2",
+      "turn": 5
+    },
+    {
+      "card_id": "nw_base_17d18cbc__copy_04",
+      "event_type": "delivery_ready",
+      "payload": {
+        "capacity": 50,
+        "previous": null
+      },
+      "player_id": "player_3",
+      "turn": 5
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_782a2d4e__copy_08"
+        ]
+      },
+      "player_id": "player_3",
+      "turn": 5
+    },
+    {
+      "card_id": "nw_base_f135174f__copy_09",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 6
+    },
+    {
+      "card_id": "nw_base_f135174f__copy_11",
+      "event_type": "warhead_loaded",
+      "payload": {
+        "delivery": "nw_base_782a2d4e__copy_03",
+        "previous": null
+      },
+      "player_id": "player_0",
+      "turn": 6
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_63d00850__copy_03"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 6
+    },
+    {
+      "card_id": "nw_base_63d00850__copy_08",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_1",
+      "turn": 6
+    },
+    {
+      "card_id": "nw_base_63d00850__copy_01",
+      "event_type": "warhead_loaded",
+      "payload": {
+        "delivery": "nw_base_17d18cbc__copy_01",
+        "previous": null
+      },
+      "player_id": "player_1",
+      "turn": 6
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_63d00850__copy_08"
+        ]
+      },
+      "player_id": "player_1",
+      "turn": 6
+    },
+    {
+      "card_id": "nw_base_817ae772__copy_01",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 6
+    },
+    {
+      "card_id": "nw_base_f135174f__copy_03",
+      "event_type": "warhead_loaded",
+      "payload": {
+        "delivery": "nw_base_782a2d4e__copy_01",
+        "previous": null
+      },
+      "player_id": "player_2",
+      "turn": 6
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_817ae772__copy_01"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 6
+    },
+    {
+      "card_id": "nw_base_ce2c2080__copy_06",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_3",
+      "turn": 6
+    },
+    {
+      "card_id": "nw_base_63d00850__copy_04",
+      "event_type": "warhead_loaded",
+      "payload": {
+        "delivery": "nw_base_17d18cbc__copy_04",
+        "previous": null
+      },
+      "player_id": "player_3",
+      "turn": 6
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_f135174f__copy_14"
+        ]
+      },
+      "player_id": "player_3",
+      "turn": 6
+    },
+    {
+      "card_id": "nw_base_17d18cbc__copy_04",
+      "event_type": "target_declared",
+      "payload": {
+        "target": "player_1"
+      },
+      "player_id": "player_3",
+      "turn": 6
+    },
+    {
+      "card_id": "nw_base_17d18cbc__copy_04",
+      "event_type": "launch_declared",
+      "payload": {
+        "target": "player_1",
+        "warheads": [
+          "nw_base_63d00850__copy_04"
+        ],
+        "yield": 20
+      },
+      "player_id": "player_3",
+      "turn": 6
+    },
+    {
+      "card_id": null,
+      "event_type": "spinner_result",
+      "payload": {
+        "effect": "shelter_saves",
+        "multiplier": 1,
+        "randomizer": "base_two_d10_fallout_chart",
+        "raw_result": 15,
+        "source_table_id": "base_two_d10_fallout_chart",
+        "target_adjustment": -2
+      },
+      "player_id": "player_3",
+      "turn": 6
+    },
+    {
+      "card_id": null,
+      "event_type": "warhead_detonated",
+      "payload": {
+        "loss": 15,
+        "target": "player_1",
+        "yield": 18
+      },
+      "player_id": "player_3",
+      "turn": 6
+    },
+    {
+      "card_id": null,
+      "event_type": "player_eliminated",
+      "payload": {
+        "by": "player_3"
+      },
+      "player_id": "player_1",
+      "turn": 6
+    },
+    {
+      "card_id": null,
+      "event_type": "final_strike_targeted",
+      "payload": {
+        "target": "player_3"
+      },
+      "player_id": "player_1",
+      "turn": 6
+    },
+    {
+      "card_id": null,
+      "event_type": "final_strike_executed",
+      "payload": {},
+      "player_id": "player_1",
+      "turn": 6
+    },
+    {
+      "card_id": null,
+      "event_type": "spinner_result",
+      "payload": {
+        "effect": "dirty_bomb",
+        "multiplier": 2,
+        "randomizer": "base_two_d10_fallout_chart",
+        "raw_result": 91,
+        "source_table_id": "base_two_d10_fallout_chart",
+        "target_adjustment": 0
+      },
+      "player_id": "player_1",
+      "turn": 6
+    },
+    {
+      "card_id": null,
+      "event_type": "warhead_detonated",
+      "payload": {
+        "loss": 17,
+        "target": "player_3",
+        "yield": 80
+      },
+      "player_id": "player_1",
+      "turn": 6
+    },
+    {
+      "card_id": null,
+      "event_type": "player_eliminated",
+      "payload": {
+        "by": "player_1"
+      },
+      "player_id": "player_3",
+      "turn": 6
+    },
+    {
+      "card_id": null,
+      "event_type": "final_strike_executed",
+      "payload": {},
+      "player_id": "player_3",
+      "turn": 6
+    },
+    {
+      "card_id": "nw_base_5baf79b7__copy_02",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 7
+    },
+    {
+      "card_id": "nw_base_782a2d4e__copy_04",
+      "event_type": "delivery_ready",
+      "payload": {
+        "capacity": 1,
+        "previous": null
+      },
+      "player_id": "player_0",
+      "turn": 7
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_524da209__copy_01"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 7
+    },
+    {
+      "card_id": "nw_base_b3a2b1d5__copy_08",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 7
+    },
+    {
+      "card_id": "nw_base_f135174f__copy_17",
+      "event_type": "warhead_discarded",
+      "payload": {
+        "previous": null,
+        "reason": "no_delivery"
+      },
+      "player_id": "player_2",
+      "turn": 7
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_f135174f__copy_18"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 7
+    },
+    {
+      "card_id": "nw_base_817ae772__copy_07",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 8
+    },
+    {
+      "card_id": "nw_base_63d00850__copy_03",
+      "event_type": "warhead_loaded",
+      "payload": {
+        "delivery": "nw_base_782a2d4e__copy_04",
+        "previous": null
+      },
+      "player_id": "player_0",
+      "turn": 8
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_f135174f__copy_09"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 8
+    },
+    {
+      "card_id": "nw_base_68e841fd",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 8
+    },
+    {
+      "card_id": "nw_base_817ae772__copy_01",
+      "event_type": "delivery_ready",
+      "payload": {
+        "capacity": 1,
+        "previous": null
+      },
+      "player_id": "player_2",
+      "turn": 8
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_635d7044"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 8
+    },
+    {
+      "card_id": "nw_base_ce2c2080__copy_01",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 9
+    },
+    {
+      "card_id": "nw_base_524da209__copy_01",
+      "event_type": "delivery_ready",
+      "payload": {
+        "capacity": 1,
+        "previous": null
+      },
+      "player_id": "player_0",
+      "turn": 9
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_17d18cbc__copy_02"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 9
+    },
+    {
+      "card_id": "nw_base_782a2d4e__copy_06",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 9
+    },
+    {
+      "card_id": "nw_base_f135174f__copy_18",
+      "event_type": "warhead_loaded",
+      "payload": {
+        "delivery": "nw_base_817ae772__copy_01",
+        "previous": null
+      },
+      "player_id": "player_2",
+      "turn": 9
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_782a2d4e__copy_06"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 9
+    },
+    {
+      "card_id": "nw_base_73c4d9d1",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 10
+    },
+    {
+      "card_id": "nw_base_73c4d9d1",
+      "event_type": "secret_queued",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 10
+    },
+    {
+      "card_id": "nw_base_f135174f__copy_12",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 10
+    },
+    {
+      "card_id": "nw_base_73c4d9d1",
+      "event_type": "secret_triggered",
+      "payload": {
+        "target": "player_2"
+      },
+      "player_id": "player_0",
+      "turn": 10
+    },
+    {
+      "card_id": "nw_base_73c4d9d1",
+      "event_type": "secret_population_stolen",
+      "payload": {
+        "migrated": 5,
+        "target": "player_2"
+      },
+      "player_id": "player_0",
+      "turn": 10
+    },
+    {
+      "card_id": "nw_base_f135174f__copy_09",
+      "event_type": "warhead_loaded",
+      "payload": {
+        "delivery": "nw_base_524da209__copy_01",
+        "previous": null
+      },
+      "player_id": "player_0",
+      "turn": 10
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_5baf79b7__copy_02"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 10
+    },
+    {
+      "card_id": "nw_base_63d00850__copy_02",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 10
+    },
+    {
+      "card_id": "nw_base_635d7044",
+      "event_type": "card_resolved",
+      "payload": {
+        "previous": null
+      },
+      "player_id": "player_2",
+      "turn": 10
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_63d00850__copy_02"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 10
+    },
+    {
+      "card_id": "nw_base_f22d41be",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 11
+    },
+    {
+      "card_id": "nw_base_f22d41be",
+      "event_type": "secret_queued",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 11
+    },
+    {
+      "card_id": "nw_base_5baf79b7__copy_04",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 11
+    },
+    {
+      "card_id": "nw_base_f22d41be",
+      "event_type": "secret_triggered",
+      "payload": {
+        "target": "player_2"
+      },
+      "player_id": "player_0",
+      "turn": 11
+    },
+    {
+      "card_id": "nw_base_f22d41be",
+      "event_type": "secret_population_damaged",
+      "payload": {
+        "loss": 25
+      },
+      "player_id": "player_2",
+      "turn": 11
+    },
+    {
+      "card_id": "nw_base_17d18cbc__copy_02",
+      "event_type": "delivery_ready",
+      "payload": {
+        "capacity": 50,
+        "previous": null
+      },
+      "player_id": "player_0",
+      "turn": 11
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_817ae772__copy_07"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 11
+    },
+    {
+      "card_id": "nw_base_f135174f__copy_10",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 11
+    },
+    {
+      "card_id": "nw_base_782a2d4e__copy_06",
+      "event_type": "delivery_ready",
+      "payload": {
+        "capacity": 1,
+        "previous": null
+      },
+      "player_id": "player_2",
+      "turn": 11
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_f135174f__copy_10"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 11
+    },
+    {
+      "card_id": "nw_base_817ae772__copy_03",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 12
+    },
+    {
+      "card_id": "nw_base_5baf79b7__copy_02",
+      "event_type": "warhead_loaded",
+      "payload": {
+        "delivery": "nw_base_17d18cbc__copy_02",
+        "previous": null
+      },
+      "player_id": "player_0",
+      "turn": 12
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_f135174f__copy_12"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 12
+    },
+    {
+      "card_id": "nw_base_b3a2b1d5__copy_09",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 12
+    },
+    {
+      "card_id": "nw_base_63d00850__copy_02",
+      "event_type": "warhead_loaded",
+      "payload": {
+        "delivery": "nw_base_782a2d4e__copy_06",
+        "previous": null
+      },
+      "player_id": "player_2",
+      "turn": 12
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_e81625f2__copy_02"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 12
+    },
+    {
+      "card_id": "nw_base_1a3dc61e",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 13
+    },
+    {
+      "card_id": "nw_base_1a3dc61e",
+      "event_type": "secret_queued",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 13
+    },
+    {
+      "card_id": "nw_base_817ae772__copy_09",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 13
+    },
+    {
+      "card_id": "nw_base_1a3dc61e",
+      "event_type": "secret_population_gained",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 13
+    },
+    {
+      "card_id": "nw_base_817ae772__copy_07",
+      "event_type": "delivery_ready",
+      "payload": {
+        "capacity": 1,
+        "previous": null
+      },
+      "player_id": "player_0",
+      "turn": 13
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_817ae772__copy_03"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 13
+    },
+    {
+      "card_id": "nw_base_b3a2b1d5__copy_03",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 13
+    },
+    {
+      "card_id": "nw_base_f135174f__copy_10",
+      "event_type": "warhead_discarded",
+      "payload": {
+        "previous": null,
+        "reason": "no_delivery"
+      },
+      "player_id": "player_2",
+      "turn": 13
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_b0c93572"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 13
+    },
+    {
+      "card_id": "nw_base_63d00850__copy_10",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 14
+    },
+    {
+      "card_id": "nw_base_f135174f__copy_12",
+      "event_type": "warhead_loaded",
+      "payload": {
+        "delivery": "nw_base_817ae772__copy_07",
+        "previous": null
+      },
+      "player_id": "player_0",
+      "turn": 14
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_5baf79b7__copy_04"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 14
+    },
+    {
+      "card_id": "nw_base_17d18cbc__copy_06",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 14
+    },
+    {
+      "card_id": "nw_base_e81625f2__copy_02",
+      "event_type": "propaganda_ready",
+      "payload": {
+        "previous": null
+      },
+      "player_id": "player_2",
+      "turn": 14
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_17d18cbc__copy_06"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 14
+    },
+    {
+      "card_id": "nw_base_63d00850__copy_09",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 15
+    },
+    {
+      "card_id": "nw_base_817ae772__copy_03",
+      "event_type": "delivery_ready",
+      "payload": {
+        "capacity": 1,
+        "previous": null
+      },
+      "player_id": "player_0",
+      "turn": 15
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_817ae772__copy_09"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 15
+    },
+    {
+      "card_id": "nw_base_782a2d4e__copy_02",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 15
+    },
+    {
+      "card_id": "nw_base_b0c93572",
+      "event_type": "card_resolved",
+      "payload": {
+        "previous": null
+      },
+      "player_id": "player_2",
+      "turn": 15
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_782a2d4e__copy_02"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 15
+    },
+    {
+      "card_id": "nw_base_00bc504e",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 16
+    },
+    {
+      "card_id": "nw_base_5baf79b7__copy_04",
+      "event_type": "warhead_discarded",
+      "payload": {
+        "previous": null,
+        "reason": "no_delivery"
+      },
+      "player_id": "player_0",
+      "turn": 16
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_63d00850__copy_10"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 16
+    },
+    {
+      "card_id": "nw_base_f135174f__copy_07",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 16
+    },
+    {
+      "card_id": "nw_base_17d18cbc__copy_06",
+      "event_type": "delivery_ready",
+      "payload": {
+        "capacity": 50,
+        "previous": null
+      },
+      "player_id": "player_2",
+      "turn": 16
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_f135174f__copy_07"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 16
+    },
+    {
+      "card_id": "nw_base_817ae772__copy_06",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 17
+    },
+    {
+      "card_id": "nw_base_817ae772__copy_09",
+      "event_type": "delivery_ready",
+      "payload": {
+        "capacity": 1,
+        "previous": null
+      },
+      "player_id": "player_0",
+      "turn": 17
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_817ae772__copy_06"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 17
+    },
+    {
+      "card_id": "nw_base_b3a2b1d5__copy_12",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 17
+    },
+    {
+      "card_id": "nw_base_782a2d4e__copy_02",
+      "event_type": "delivery_ready",
+      "payload": {
+        "capacity": 1,
+        "previous": null
+      },
+      "player_id": "player_2",
+      "turn": 17
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_b3a2b1d5__copy_11"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 17
+    },
+    {
+      "card_id": "nw_base_782a2d4e__copy_07",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 18
+    },
+    {
+      "card_id": "nw_base_63d00850__copy_10",
+      "event_type": "warhead_discarded",
+      "payload": {
+        "previous": null,
+        "reason": "no_delivery"
+      },
+      "player_id": "player_0",
+      "turn": 18
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_63d00850__copy_09"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 18
+    },
+    {
+      "card_id": "nw_base_63d00850__copy_06",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 18
+    },
+    {
+      "card_id": "nw_base_f135174f__copy_07",
+      "event_type": "warhead_loaded",
+      "payload": {
+        "delivery": "nw_base_782a2d4e__copy_02",
+        "previous": null
+      },
+      "player_id": "player_2",
+      "turn": 18
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_63d00850__copy_06"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 18
+    },
+    {
+      "card_id": "nw_base_17d18cbc__copy_03",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 19
+    },
+    {
+      "card_id": "nw_base_817ae772__copy_06",
+      "event_type": "delivery_ready",
+      "payload": {
+        "capacity": 1,
+        "previous": null
+      },
+      "player_id": "player_0",
+      "turn": 19
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_782a2d4e__copy_07"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 19
+    },
+    {
+      "card_id": "nw_base_17d18cbc__copy_06",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 19
+    },
+    {
+      "card_id": "nw_base_b3a2b1d5__copy_11",
+      "event_type": "propaganda_ready",
+      "payload": {
+        "previous": null
+      },
+      "player_id": "player_2",
+      "turn": 19
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_17d18cbc__copy_06"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 19
+    },
+    {
+      "card_id": "nw_base_f135174f__copy_04",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 20
+    },
+    {
+      "card_id": "nw_base_63d00850__copy_09",
+      "event_type": "warhead_discarded",
+      "payload": {
+        "previous": null,
+        "reason": "no_delivery"
+      },
+      "player_id": "player_0",
+      "turn": 20
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_f135174f__copy_04"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 20
+    },
+    {
+      "card_id": "nw_base_5baf79b7__copy_04",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 20
+    },
+    {
+      "card_id": "nw_base_63d00850__copy_06",
+      "event_type": "warhead_discarded",
+      "payload": {
+        "previous": null,
+        "reason": "no_delivery"
+      },
+      "player_id": "player_2",
+      "turn": 20
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_5baf79b7__copy_04"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 20
+    },
+    {
+      "card_id": "nw_base_635d7044",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 21
+    },
+    {
+      "card_id": "nw_base_782a2d4e__copy_07",
+      "event_type": "delivery_ready",
+      "payload": {
+        "capacity": 1,
+        "previous": null
+      },
+      "player_id": "player_0",
+      "turn": 21
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_17d18cbc__copy_03"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 21
+    },
+    {
+      "card_id": "nw_base_f22d41be",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 21
+    },
+    {
+      "card_id": "nw_base_f22d41be",
+      "event_type": "secret_queued",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 21
+    },
+    {
+      "card_id": "nw_base_63d00850__copy_04",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 21
+    },
+    {
+      "card_id": "nw_base_f22d41be",
+      "event_type": "secret_triggered",
+      "payload": {
+        "target": "player_0"
+      },
+      "player_id": "player_2",
+      "turn": 21
+    },
+    {
+      "card_id": "nw_base_f22d41be",
+      "event_type": "secret_population_damaged",
+      "payload": {
+        "loss": 25
+      },
+      "player_id": "player_0",
+      "turn": 21
+    },
+    {
+      "card_id": "nw_base_17d18cbc__copy_06",
+      "event_type": "delivery_ready",
+      "payload": {
+        "capacity": 50,
+        "previous": null
+      },
+      "player_id": "player_2",
+      "turn": 21
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_63d00850__copy_04"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 21
+    },
+    {
+      "card_id": "nw_base_b6794c74",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 22
+    },
+    {
+      "card_id": "nw_base_b6794c74",
+      "event_type": "secret_queued",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 22
+    },
+    {
+      "card_id": "nw_base_73c4d9d1",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 22
+    },
+    {
+      "card_id": "nw_base_73c4d9d1",
+      "event_type": "secret_queued",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 22
+    },
+    {
+      "card_id": "nw_base_817ae772__copy_03",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 22
+    },
+    {
+      "card_id": "nw_base_b6794c74",
+      "event_type": "secret_triggered",
+      "payload": {
+        "target": "player_2"
+      },
+      "player_id": "player_0",
+      "turn": 22
+    },
+    {
+      "card_id": "nw_base_b6794c74",
+      "event_type": "secret_turns_lost",
+      "payload": {
+        "target": "player_2",
+        "turns": 1
+      },
+      "player_id": "player_0",
+      "turn": 22
+    },
+    {
+      "card_id": "nw_base_73c4d9d1",
+      "event_type": "secret_triggered",
+      "payload": {
+        "target": "player_2"
+      },
+      "player_id": "player_0",
+      "turn": 22
+    },
+    {
+      "card_id": "nw_base_73c4d9d1",
+      "event_type": "secret_population_stolen",
+      "payload": {
+        "migrated": 5,
+        "target": "player_2"
+      },
+      "player_id": "player_0",
+      "turn": 22
+    },
+    {
+      "card_id": "nw_base_f135174f__copy_04",
+      "event_type": "warhead_loaded",
+      "payload": {
+        "delivery": "nw_base_782a2d4e__copy_07",
+        "previous": null
+      },
+      "player_id": "player_0",
+      "turn": 22
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_817ae772__copy_03"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 22
+    },
+    {
+      "card_id": "nw_base_63d00850__copy_01",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 22
+    },
+    {
+      "card_id": "nw_base_5baf79b7__copy_04",
+      "event_type": "warhead_loaded",
+      "payload": {
+        "delivery": "nw_base_17d18cbc__copy_06",
+        "previous": null
+      },
+      "player_id": "player_2",
+      "turn": 22
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_63d00850__copy_01"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 22
+    },
+    {
+      "card_id": "nw_base_f135174f__copy_13",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 23
+    },
+    {
+      "card_id": "nw_base_17d18cbc__copy_03",
+      "event_type": "delivery_ready",
+      "payload": {
+        "capacity": 50,
+        "previous": null
+      },
+      "player_id": "player_0",
+      "turn": 23
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_f135174f__copy_13"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 23
+    },
+    {
+      "card_id": "nw_base_ce2c2080__copy_04",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 23
+    },
+    {
+      "card_id": "nw_base_63d00850__copy_04",
+      "event_type": "warhead_discarded",
+      "payload": {
+        "previous": null,
+        "reason": "no_delivery"
+      },
+      "player_id": "player_2",
+      "turn": 23
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_b3a2b1d5__copy_06"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 23
+    },
+    {
+      "card_id": "nw_base_1e921213",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 24
+    },
+    {
+      "card_id": "nw_base_1e921213",
+      "event_type": "secret_queued",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 24
+    },
+    {
+      "card_id": "nw_base_b0c93572",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 24
+    },
+    {
+      "card_id": "nw_base_1e921213",
+      "event_type": "secret_triggered",
+      "payload": {
+        "target": "player_2"
+      },
+      "player_id": "player_0",
+      "turn": 24
+    },
+    {
+      "card_id": "nw_base_1e921213",
+      "event_type": "secret_turns_lost",
+      "payload": {
+        "target": "player_2",
+        "turns": 1
+      },
+      "player_id": "player_0",
+      "turn": 24
+    },
+    {
+      "card_id": "nw_base_817ae772__copy_03",
+      "event_type": "delivery_ready",
+      "payload": {
+        "capacity": 1,
+        "previous": null
+      },
+      "player_id": "player_0",
+      "turn": 24
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_b3a2b1d5__copy_07"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 24
+    },
+    {
+      "card_id": "nw_base_782a2d4e__copy_09",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 24
+    },
+    {
+      "card_id": "nw_base_63d00850__copy_01",
+      "event_type": "warhead_discarded",
+      "payload": {
+        "previous": null,
+        "reason": "no_delivery"
+      },
+      "player_id": "player_2",
+      "turn": 24
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_782a2d4e__copy_09"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 24
+    },
+    {
+      "card_id": "nw_base_1a3dc61e",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 25
+    },
+    {
+      "card_id": "nw_base_1a3dc61e",
+      "event_type": "secret_queued",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 25
+    },
+    {
+      "card_id": "nw_base_f135174f__copy_02",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 25
+    },
+    {
+      "card_id": "nw_base_1a3dc61e",
+      "event_type": "secret_population_gained",
+      "payload": {},
+      "player_id": "player_0",
+      "turn": 25
+    },
+    {
+      "card_id": "nw_base_f135174f__copy_13",
+      "event_type": "warhead_loaded",
+      "payload": {
+        "delivery": "nw_base_817ae772__copy_03",
+        "previous": null
+      },
+      "player_id": "player_0",
+      "turn": 25
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_f135174f__copy_02"
+        ]
+      },
+      "player_id": "player_0",
+      "turn": 25
+    },
+    {
+      "card_id": "nw_base_cef59053",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 25
+    },
+    {
+      "card_id": "nw_base_cef59053",
+      "event_type": "secret_queued",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 25
+    },
+    {
+      "card_id": "nw_base_e81625f2__copy_02",
+      "event_type": "card_drawn",
+      "payload": {},
+      "player_id": "player_2",
+      "turn": 25
+    },
+    {
+      "card_id": "nw_base_cef59053",
+      "event_type": "secret_triggered",
+      "payload": {
+        "target": "player_0"
+      },
+      "player_id": "player_2",
+      "turn": 25
+    },
+    {
+      "card_id": "nw_base_cef59053",
+      "event_type": "secret_population_damaged",
+      "payload": {
+        "loss": 10
+      },
+      "player_id": "player_0",
+      "turn": 25
+    },
+    {
+      "card_id": "nw_base_b3a2b1d5__copy_06",
+      "event_type": "propaganda_ready",
+      "payload": {
+        "previous": null
+      },
+      "player_id": "player_2",
+      "turn": 25
+    },
+    {
+      "card_id": null,
+      "event_type": "cards_enqueued",
+      "payload": {
+        "cards": [
+          "nw_base_b3a2b1d5__copy_05"
+        ]
+      },
+      "player_id": "player_2",
+      "turn": 25
+    }
+  ],
+  "final_populations": {
+    "player_0": 29,
+    "player_1": 0,
+    "player_2": 24,
+    "player_3": 0
+  },
+  "mode": "table",
+  "pending_final_strikes": false,
+  "players": 4,
+  "seed": 101,
+  "termination_reason": "max_turns",
+  "turns": 25,
+  "winner": null
+}

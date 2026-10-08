@@ -1,0 +1,77 @@
+{
+  "players": 4,
+  "seed": 211,
+  "max_turns": 40,
+  "runtime": "auto",
+  "press": {"mode": "press_light", "enabled": true},
+  "seats": {
+    "player_0": {
+      "agent": "concordia_http",
+      "identity": {
+        "name": "Commander 0",
+        "role": "cautious nuclear commander",
+        "objective": "survive while preserving strategic options"
+      },
+      "client": {
+        "base_url_env": "WOPR_LLM_BASE_URL",
+        "model_env": "WOPR_LLM_MODEL",
+        "api_key_env": "TOGETHER_API_KEY",
+        "provider_label": "together",
+        "timeout_seconds": 60,
+        "temperature": 0.7,
+        "max_tokens": 512
+      }
+    },
+    "player_1": {
+      "agent": "concordia_http",
+      "identity": {
+        "name": "Commander 1",
+        "role": "risk-accepting nuclear commander",
+        "objective": "pressure opponents without being eliminated"
+      },
+      "client": {
+        "base_url_env": "WOPR_LLM_BASE_URL",
+        "model_env": "WOPR_LLM_MODEL",
+        "api_key_env": "TOGETHER_API_KEY",
+        "provider_label": "together",
+        "timeout_seconds": 60,
+        "temperature": 0.7,
+        "max_tokens": 512
+      }
+    },
+    "player_2": {
+      "agent": "concordia_http",
+      "identity": {
+        "name": "Commander 2",
+        "role": "deterrence-focused nuclear commander",
+        "objective": "avoid final-strike vulnerability"
+      },
+      "client": {
+        "base_url_env": "WOPR_LLM_BASE_URL",
+        "model_env": "WOPR_LLM_MODEL",
+        "api_key_env": "TOGETHER_API_KEY",
+        "provider_label": "together",
+        "timeout_seconds": 60,
+        "temperature": 0.7,
+        "max_tokens": 512
+      }
+    },
+    "player_3": {
+      "agent": "concordia_http",
+      "identity": {
+        "name": "Commander 3",
+        "role": "opportunistic nuclear commander",
+        "objective": "survive and exploit weak opponents"
+      },
+      "client": {
+        "base_url_env": "WOPR_LLM_BASE_URL",
+        "model_env": "WOPR_LLM_MODEL",
+        "api_key_env": "TOGETHER_API_KEY",
+        "provider_label": "together",
+        "timeout_seconds": 60,
+        "temperature": 0.7,
+        "max_tokens": 512
+      }
+    }
+  }
+}

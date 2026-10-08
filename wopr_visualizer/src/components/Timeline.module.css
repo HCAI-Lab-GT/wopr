@@ -1,0 +1,136 @@
+.timeline {
+  background: var(--surface-panel);
+  border: 1px solid var(--border-subtle);
+  display: grid;
+  gap: 10px;
+  min-width: 0;
+  padding: 12px 24px 16px;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.filterButton,
+.iconButton {
+  align-items: center;
+  background: var(--surface-raised);
+  border: 1px solid var(--border-strong);
+  color: var(--text-primary);
+  cursor: pointer;
+  display: inline-flex;
+  font: inherit;
+  min-height: 36px;
+}
+
+.filterButton {
+  border-radius: 6px;
+  padding: 8px 12px;
+}
+
+.iconButton {
+  border-radius: 6px;
+  justify-content: center;
+  padding: 8px;
+  width: 38px;
+}
+
+.filterButton:hover,
+.iconButton:hover,
+.tabActive {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.tag {
+  background: var(--surface-base);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  padding: 4px 7px;
+}
+
+.timelineControls {
+  align-items: center;
+  display: grid;
+  gap: 12px;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+}
+
+.toolbar {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.range {
+  accent-color: var(--accent);
+  width: 100%;
+}
+
+.markerRail {
+  display: grid;
+  gap: 2px;
+  grid-template-columns: repeat(auto-fit, minmax(4px, 1fr));
+}
+
+.marker {
+  background: var(--border-strong);
+  height: 14px;
+}
+
+.markerActive {
+  background: var(--accent);
+}
+
+.markerDanger {
+  background: var(--danger);
+}
+
+.markerWarning {
+  background: var(--warning);
+}
+
+.markerLaunch {
+  background: var(--warning);
+}
+
+.markerDecision {
+  box-shadow: inset 0 -3px 0 var(--accent);
+}
+
+.markerPress {
+  box-shadow: inset 0 3px 0 var(--stable);
+}
+
+.markerFailure {
+  outline: 2px solid var(--danger);
+  outline-offset: -2px;
+}
+
+.markerStable {
+  background: var(--stable);
+}
+
+.markerSearch {
+  outline: 1px solid var(--accent);
+  outline-offset: -1px;
+}
+
+.searchSlot {
+  align-items: center;
+  display: flex;
+  gap: 6px;
+  margin-left: auto;
+  min-width: 280px;
+}
+
+.searchNav {
+  display: flex;
+  gap: 4px;
+}

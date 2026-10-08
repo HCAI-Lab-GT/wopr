@@ -1,0 +1,50 @@
+{
+  "base_later_two_d10": {
+    "randomizer": "base_two_d10_fallout_chart",
+    "population_deck_model": "later 20-card population as in goblins rules PDF",
+    "hand_draw_target": 10,
+    "press_enabled": false,
+    "simultaneous_orders": false,
+    "notes": "Good base simulation using accessible PDF mirror."
+  },
+  "classic_spinner_scan": {
+    "randomizer": "physical spinner categories; exact probabilities require spinner transcription/photo",
+    "population_deck_model": "40-card population deck from old scan/card list",
+    "hand_draw_target": "edition-specific; likely 9-card hand plus scheduled cards",
+    "press_enabled": false,
+    "simultaneous_orders": false,
+    "notes": "Requires physical spinner or scan measurement for exact probabilities."
+  },
+  "nuclear_destruction_modern": {
+    "randomizer": "ND spinner; optional Nuclear Escalation die",
+    "population_deck_model": "ND population deck",
+    "hand_draw_target": 9,
+    "press_enabled": false,
+    "simultaneous_orders": false,
+    "notes": "Use official 2026 rules PDFs."
+  },
+  "postal_press": {
+    "randomizer": "spinner/dice per selected base set",
+    "population_deck_model": "base or combined",
+    "hand_draw_target": "PBM rules-specific",
+    "press_enabled": true,
+    "simultaneous_orders": true,
+    "notes": "Use VariablePig postal rules."
+  },
+  "no_press_house": {
+    "randomizer": "choose base/ND",
+    "population_deck_model": "choose base/ND",
+    "hand_draw_target": "choose source",
+    "press_enabled": false,
+    "simultaneous_orders": "optional",
+    "notes": "No official no-press source found; mechanical rules unchanged."
+  },
+  "combined_expansions": {
+    "randomizer": "selected base + expansion tables",
+    "population_deck_model": "combined pool",
+    "hand_draw_target": "source-specific",
+    "press_enabled": "optional",
+    "simultaneous_orders": "optional",
+    "notes": "Use official ND combination guidance and unofficial card lists; verify exact text."
+  }
+}

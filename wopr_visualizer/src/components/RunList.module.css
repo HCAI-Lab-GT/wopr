@@ -1,0 +1,85 @@
+.runList {
+  background: var(--surface-panel);
+  border: 1px solid var(--border-subtle);
+  display: grid;
+  gap: 14px;
+  min-width: 0;
+}
+
+.sectionHeader {
+  align-items: center;
+  border-bottom: 1px solid var(--border-subtle);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: space-between;
+  padding: 12px 14px;
+}
+
+.eyebrow {
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: 11px;
+}
+
+.hint {
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: 12px;
+}
+
+.tableWrap {
+  overflow: auto;
+  padding: 0 14px 14px;
+}
+
+.table {
+  border-collapse: collapse;
+  font-size: 12px;
+  width: 100%;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.table thead th {
+  border-bottom: 1px solid var(--border-strong);
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-weight: normal;
+}
+
+.row {
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.rowClickable {
+  cursor: pointer;
+}
+
+.rowClickable:hover,
+.rowClickable:focus {
+  background: var(--surface-changed);
+  outline: none;
+}
+
+.rowSelected {
+  background: var(--surface-changed);
+}
+
+.row[aria-disabled='true'] {
+  color: var(--text-muted);
+}
+
+.mono {
+  font-family: var(--font-mono);
+}
+
+.winnerCell {
+  font-family: var(--font-mono);
+  color: var(--accent);
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "file": "99_sources/downloaded_pdfs/NucDesRulesUpdated040226.pdf",
+    "bytes": 2181508,
+    "sha256": "21176b17f75872d031a70a03c69262abdd39c1f31bf13ccbb8201b7de7c2cb46",
+    "pages": "12"
+  },
+  {
+    "file": "99_sources/downloaded_pdfs/NuclearDestructionLog.pdf",
+    "bytes": 201975,
+    "sha256": "a80ec40e6141fad0fa6ae72222dfca0cbe2c359244d598ab76012f108030c6bf",
+    "pages": "1"
+  },
+  {
+    "file": "99_sources/downloaded_pdfs/NuclearWarENGrules_goblins_mirror.pdf",
+    "bytes": 18343,
+    "sha256": "7fb7b89e18f8cf4d078fd06367b621289e0b10850d719d4c43f0d20dde8fdfe7",
+    "pages": "4"
+  },
+  {
+    "file": "99_sources/downloaded_pdfs/Nuclear_DestructionAntiMissileChart.pdf",
+    "bytes": 253624,
+    "sha256": "972ce2285e96dd23791fe36e370bf75f167f5a9237c48561a44ec7abcd7e62e2",
+    "pages": "1"
+  },
+  {
+    "file": "99_sources/downloaded_pdfs/nuclear-war-rules_magisterrex_mirror.pdf",
+    "bytes": 11309383,
+    "sha256": "7e95f58144d742c85a85a0cab687299c083c9aedad2d48803d54814cd94fbaf6",
+    "pages": "2"
+  }
+]

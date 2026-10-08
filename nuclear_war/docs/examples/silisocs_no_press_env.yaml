@@ -1,0 +1,41 @@
+# @package env
+
+gm:
+  backend:
+    type: custom
+    class_path: nuclear_war_silisocs.backend.NuclearWarNoPressBackend
+    params:
+      config_path: docs/examples/silisocs_no_press_scripted_demo.json
+      output_dir: /tmp/wopr_silisocs_demo
+      scenario_name: nuclear_war_no_press
+  components:
+    initialize:
+      built_in: app_initialize
+      class_path: null
+      params: {}
+    next_acting:
+      built_in: all_agents
+      class_path: null
+      params: {}
+    observe:
+      built_in: app_observation
+      class_path: null
+      params: {}
+    resolve:
+      built_in: generic_action
+      class_path: null
+      params: {}
+    update:
+      built_in: disabled
+      class_path: null
+      params: {}
+    action_prompt:
+      built_in: default
+      class_path: null
+      params:
+        action_prompt: |
+          Trigger one WOPR Nuclear War no-press demo run.
+        output_style: |
+          ACTION: run_demo
+  name: nuclear_war_no_press_gm
+  class_path: silisocs.environments.gm.game_master.ComponentGameMaster

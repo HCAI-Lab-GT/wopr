@@ -1,0 +1,21 @@
+.workspace {
+  min-height: 0;
+  min-width: 0;
+  padding: 16px 24px;
+}
+
+@media (max-width: 900px) {
+  .workspace {
+    padding: 12px;
+  }
+}
+
+.chartRow {
+  padding: 0 24px;
+}
+
+@media (max-width: 900px) {
+  .chartRow {
+    padding: 0 12px;
+  }
+}

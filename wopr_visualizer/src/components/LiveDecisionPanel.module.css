@@ -1,0 +1,115 @@
+.panel {
+  background: var(--surface-panel);
+  border: 1px solid var(--border-subtle);
+  display: grid;
+  gap: 14px;
+  min-width: 0;
+  padding: 14px;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+}
+
+.header h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.eyebrow {
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0;
+}
+
+.summaryGrid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 0;
+}
+
+.summaryGrid dt {
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: 11px;
+}
+
+.summaryGrid dd {
+  margin: 2px 0 0;
+}
+
+.controlRow,
+.actions {
+  display: grid;
+  gap: 8px;
+}
+
+.secondaryButton,
+.actionButton {
+  align-items: center;
+  border-radius: 6px;
+  cursor: pointer;
+  display: inline-flex;
+  font: inherit;
+  gap: 8px;
+  min-height: 36px;
+}
+
+.secondaryButton {
+  background: var(--surface-raised);
+  border: 1px solid var(--border-strong);
+  color: var(--text-primary);
+  padding: 8px 12px;
+}
+
+.actionButton {
+  background: var(--surface-base);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-primary);
+  justify-content: flex-start;
+  padding: 10px 12px;
+  text-align: left;
+  width: 100%;
+}
+
+.secondaryButton:hover,
+.actionButton:hover {
+  border-color: var(--accent);
+}
+
+.secondaryButton:disabled,
+.actionButton:disabled {
+  cursor: not-allowed;
+  opacity: 0.58;
+}
+
+.errorPanel {
+  background: var(--warning-bg);
+  border: 1px solid var(--warning);
+  color: var(--warning);
+  display: grid;
+  gap: 4px;
+  padding: 10px;
+}
+
+.errorCode,
+.errorStatus {
+  font-family: var(--font-mono);
+  font-size: 12px;
+}
+
+.emptyState {
+  color: var(--text-secondary);
+}
+
+@media (max-width: 900px) {
+  .header {
+    align-items: start;
+    display: grid;
+  }
+}

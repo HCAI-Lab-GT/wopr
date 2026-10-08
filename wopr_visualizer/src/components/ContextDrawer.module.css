@@ -1,0 +1,115 @@
+.drawer {
+  background: var(--surface-panel);
+  border: 1px solid var(--border-subtle);
+  display: grid;
+  grid-template-rows: auto auto auto minmax(0, 1fr);
+  min-height: 0;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.sectionHeader {
+  align-items: center;
+  border-bottom: 1px solid var(--border-subtle);
+  display: flex;
+  justify-content: space-between;
+  min-height: 48px;
+  padding: 12px 14px;
+}
+
+.eyebrow {
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0;
+}
+
+.warningPill {
+  background: var(--warning-bg);
+  border: 1px solid var(--warning);
+  color: var(--warning);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  padding: 5px 8px;
+}
+
+.tabs {
+  border-bottom: 1px solid var(--border-subtle);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 10px 12px;
+}
+
+.tab {
+  align-items: center;
+  background: var(--surface-raised);
+  border: 1px solid var(--border-strong);
+  border-radius: 6px;
+  color: var(--text-primary);
+  cursor: pointer;
+  display: inline-flex;
+  gap: 6px;
+  font: inherit;
+  min-height: 36px;
+  padding: 8px 12px;
+}
+
+.tab:hover,
+.tabActive {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.drawerBody {
+  display: grid;
+  gap: 12px;
+  min-height: 0;
+  overflow: auto;
+  padding: 12px;
+}
+
+.selectionSummary {
+  background: var(--surface-base);
+  border: 1px solid var(--accent);
+  display: grid;
+  gap: 8px;
+  padding: 10px;
+}
+
+.selectionSummary h3 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.selectionGrid {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 0;
+}
+
+.selectionGrid div {
+  background: var(--surface-raised);
+  border: 1px solid var(--border-subtle);
+  min-width: 0;
+  padding: 7px;
+}
+
+.selectionGrid dt {
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: 11px;
+}
+
+.selectionGrid dd {
+  color: var(--text-primary);
+  margin: 2px 0 0;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 900px) {
+  .drawer {
+    min-height: 420px;
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "replay": {
+    "agent": "decision_heuristic",
+    "mode": "table",
+    "players": 4,
+    "seed": 103,
+    "turns": 15
+  },
+  "schema_version": 4,
+  "traces": []
+}
